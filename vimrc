@@ -311,8 +311,6 @@ inoremap <s-tab> <Up>
 "----asynchronous run---
 " let g:asyncrun_rootmarks = ['.svn', '.git', '.root', '.bzr', '_darcs', 'build.xml', 'makefile'] 
 
-
-
 "---force syntax---
 augroup filetypedetect
     au BufRead,BufNewFile *.gv set filetype=dot
