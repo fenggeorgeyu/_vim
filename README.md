@@ -4,7 +4,7 @@ My vim configuration.
 
 ## Install
 
-First, download the git repo and link the `.vimrc` to your home folder
+First, download the git repo and link the `vimrc` to your home folder `.vimrc`
 
 	git clone --recursive git@github.com:fenggeorgeyu/_vim.git ~/.vim
 	ln -s ~/.vim/vimrc ~/.vimrc
