@@ -60,6 +60,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-commentary'
 "---golang----
 Plugin 'fatih/vim-go'
+"disregard vim version warning
+let g:go_version_warning = 0 
 "---buffer on tab---
 Plugin 'ap/vim-buftabline'
 "---quickfix window control---
