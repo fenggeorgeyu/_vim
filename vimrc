@@ -68,6 +68,8 @@ Plugin 'ap/vim-buftabline'
 Plugin 'milkypostman/vim-togglelist'
 "---asynchronous quickfix window when run command
 Plugin 'skywind3000/asyncrun.vim'
+"---conque shell term----
+Plugin 'rosenfeld/conque-term'
 " Plugin 'shougo/neocomplete.vim'
 "---autocomplete
 " Plugin 'valloric/youcompleteme' " too large approximiately 200MB ..
