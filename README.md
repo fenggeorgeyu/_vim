@@ -18,4 +18,4 @@ Second, start vim, type `:` and type `PluginInstall` to install plugins. Restart
 
 ## Screenshot
 
-[Screenshot](misc/screenshot.png)
+![Screenshot](misc/screenshot.png)
