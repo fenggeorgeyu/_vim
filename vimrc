@@ -153,6 +153,9 @@ let g:pandoc#completion#bib#mode = 'citeproc'
 let g:pandoc#syntax#protect#codeblocks = 0 "avoid syntax error on markdown comment
 let g:pandoc#keyboard#use_default_mappings = 1 "localleader is '\'
 let g:pandoc#syntax#conceal#use = 0 "no rendering of formulas 
+"let PandocUnhighlight = ["latex"]
+"let g:pandoc#command#latex_engine=None
+
 "-------color theme-------
 set background=dark
 " set background=light
@@ -274,10 +277,10 @@ noremap <D-S-Right> gt
 
 
 "---vim-buftabline---
-""previous buffer
-"noremap <D-S-Left> :bprev<CR>
-""next buffer
-"noremap <D-S-Right> :bnext<CR>
+"previous buffer
+noremap <D-[> :bprev<CR>
+"next buffer
+noremap <D-]> :bnext<CR>
 ""close buffer
 "noremap <C-w> :bd<CR>
 
@@ -318,6 +321,7 @@ augroup filetypedetect
     au BufRead,BufNewFile *.gv set filetype=dot
     au BufRead,BufNewFile *.conf set filetype=bash
     au BufRead,BufNewFile *.csv set filetype=cvsrc
+    au BufRead,BufNewFile *.txt set filetype=markdown
 augroup END
 
 
