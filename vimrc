@@ -157,7 +157,7 @@ let g:pandoc#syntax#conceal#use = 0 "no rendering of formulas
 "let g:pandoc#command#latex_engine=None
 
 "-------color theme-------
-set background=dark
+" set background=dark
 " set background=light
 " colorscheme quantum
 colorscheme molokai
