@@ -74,17 +74,11 @@ Plugin 'rosenfeld/conque-term'
 "---autocomplete
 " Plugin 'valloric/youcompleteme' " too large approximiately 200MB ..
 "---colorscheme----
-Plugin 'chriskempson/base16-vim'
-Plugin 'https://github.com/tyrannicaltoucan/vim-quantum.git'
+" Plugin 'chriskempson/base16-vim'
 Plugin 'reedes/vim-colors-pencil'
 Plugin 'tomasr/molokai' 
-" Plugin 'google/vim-colorscheme-primary' "google colorschme
 Plugin 'altercation/vim-colors-solarized' "solorized
-" Plugin 'kisom/eink.vim.git' " colorscheme
-" Plugin 'dracula/vim' "colorscheme
-" Plugin 'flazz/vim-colorschemes' "many colorschemes. preview at http://vimcolors.com/
-" Plugin 'romainl/Apprentice'
-" Plugin 'rakr/vim-one'
+Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
 
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
@@ -159,13 +153,14 @@ let g:pandoc#syntax#conceal#use = 0 "no rendering of formulas
 "-------color theme-------
 set background=dark
 " set background=light
-" colorscheme quantum
-" colorscheme molokai
+colorscheme molokai
 " colorscheme morning
 " colorscheme pencil
-" colorscheme material
-" colorscheme base16-classic-dark
-colorscheme solarized
+" colorscheme solarized
+" colorscheme cobalt2
+"---turn off error highlight---
+au ColorScheme * hi Error NONE
+au ColorScheme * hi ErrorMsg NONE
 ""-------airline - status bar------
 let g:airline_theme='simple' 
 let g:airline#extensions#tabline#show_buffers = 1
