@@ -262,8 +262,7 @@ noremap <D-Left> g0
 noremap <D-Right> g$
 
 " nerd tree
-" open a NERDTree automatically when vim starts up
-" autocmd vimenter * NERDTree
+" autocmd VimEnter * NERDTree 
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeIgnore = ['\.pyc$', '\.class$']
 
