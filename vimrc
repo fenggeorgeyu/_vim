@@ -163,7 +163,7 @@ colorscheme darkblue
 au ColorScheme * hi Error NONE
 au ColorScheme * hi ErrorMsg NONE
 ""-------airline - status bar------
-"let g:airline_theme='simple' 
+let g:airline_theme='simple' 
 let g:airline#extensions#tabline#show_buffers = 1
 "---colorcheme for gui----
 " if has("gui_macvim")
