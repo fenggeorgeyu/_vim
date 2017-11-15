@@ -156,8 +156,9 @@ set background=dark
 " colorscheme molokai
 " colorscheme morning
 " colorscheme pencil
-colorscheme solarized
+" colorscheme solarized
 " colorscheme cobalt2
+colorscheme darkblue
 "---turn off error highlight---
 au ColorScheme * hi Error NONE
 au ColorScheme * hi ErrorMsg NONE
