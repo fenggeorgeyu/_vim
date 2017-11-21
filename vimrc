@@ -165,6 +165,8 @@ au ColorScheme * hi ErrorMsg NONE
 ""-------airline - status bar------
 let g:airline_theme='simple' 
 let g:airline#extensions#tabline#show_buffers = 1
+"---word count---
+let g:airline#extensions#wordcount#enabled = 1
 "---colorcheme for gui----
 " if has("gui_macvim")
 " 	set background=light
@@ -315,10 +317,10 @@ inoremap <s-tab> <Up>
 
 "---force syntax---
 augroup filetypedetect
-    au BufRead,BufNewFile *.gv set filetype=dot
-    au BufRead,BufNewFile *.conf set filetype=bash
-    au BufRead,BufNewFile *.csv set filetype=cvsrc
-    au BufRead,BufNewFile *.txt set filetype=markdown
+	au BufRead,BufNewFile *.gv set filetype=dot
+	au BufRead,BufNewFile *.conf set filetype=bash
+	au BufRead,BufNewFile *.csv set filetype=cvsrc
+	au BufNewFile,BufRead *.md,*.txt,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn set filetype=markdown
 augroup END
 
 
