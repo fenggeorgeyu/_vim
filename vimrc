@@ -134,10 +134,12 @@ set noswapfile
 " set indent
 set autoindent
 set noexpandtab
-set tabstop=8
-set shiftwidth=8
+set tabstop=4
+set shiftwidth=4
 " fold
 set foldmethod=expr
+" Automatically change the current directory
+set autochdir
 
 " "----pandoc-------
 let g:pandoc#folding#level = 6
