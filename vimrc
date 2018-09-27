@@ -155,12 +155,12 @@ let g:pandoc#syntax#conceal#use = 0 "no rendering of formulas
 "-------color theme-------
 set background=dark
 " set background=light
-" colorscheme molokai
+colorscheme molokai
 " colorscheme morning
 " colorscheme pencil
 " colorscheme solarized
 " colorscheme cobalt2
-colorscheme darkblue
+" colorscheme darkblue
 "---turn off error highlight---
 au ColorScheme * hi Error NONE
 au ColorScheme * hi ErrorMsg NONE
