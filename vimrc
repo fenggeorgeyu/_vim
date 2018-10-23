@@ -4,20 +4,23 @@
 " URL: http://vim.wikia.com/wiki/Example_vimrc
 "------------------------------------------------------------
 
+for f in split(glob('~/.vim/vimrc.d/*.vim'), '\n')
+    exe 'source' f
+endfor
 
-so vim/vundle.vim "vundle
-so vim/common.vim 
-so vim/font.vim
-so vim/colorscheme.vim
-so vim/keymap.vim
-so vim/pandoc.vim
-so vim/spell.vim
-so vim/markdown.vim
-so vim/nerdtree.vim
-so vim/syntax.vim "force syntax
-so vim/asyncrun.vim
-so vim/neocomplete.vim "not used
-so vim/omnicomplete.vim 
+" so &vimdir/vim/vundle.vim "vundle
+" so @vimdir/vim/common.vim 
+" so @vimdir/vim/font.vim
+" so @vimdir/vim/colorscheme.vim
+" so @vimdir/vim/keymap.vim
+" so @vimdir/vim/pandoc.vim
+" so @vimdir/vim/spell.vim
+" so @vimdir/vim/markdown.vim
+" so @vimdir/vim/nerdtree.vim
+" so @vimdir/vim/syntax.vim "force syntax
+" so @vimdir/vim/asyncrun.vim
+" so @vimdir/vim/neocomplete.vim "not used
+" so @vimdir/vim/omnicomplete.vim 
 
 
 
