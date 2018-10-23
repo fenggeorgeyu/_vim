@@ -15,7 +15,8 @@ if has("gui_running")
     elseif has("gui_macvim")
         " set guifont=Menlo:h16
         " set guifont=Monaco:h16
-        set guifont=Menlo\ Regular:h16
+        " set guifont=Menlo\ Regular:h16
+        set guifont=Consolas-with-Yahei:h18 "https://github.com/wuqiling97/Consolas-with-Yahei
 	" set guifont=Roboto\ Mono:h16
         " let macvim_hig_shift_movement = 1 
 		"shift + arrow select, might conflict with comment and copy,cut,paste
@@ -34,110 +35,11 @@ endif
 "
 
 " fyu
-" vundle
-filetype off " required
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-"--------Keep Plugin commands between vundle#begin/end-------
-" plugin for Git
-Plugin 'tpope/vim-fugitive'
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-Plugin 'ascenator/L9', {'name': 'newL9'}
-"----markdown----
-" document include keys: https://github.com/vim-pandoc/vim-pandoc/blob/master/doc/pandoc.txt
-Plugin 'vim-pandoc/vim-pandoc'
-Plugin 'vim-pandoc/vim-pandoc-syntax'
-"----markdown--end--
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'enricobacis/vim-airline-clock'
-Plugin 'reedes/vim-lexical'
-Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-commentary'
-"---golang----
-Plugin 'fatih/vim-go'
-"disregard vim version warning
-let g:go_version_warning = 0 
-"---buffer on tab---
-Plugin 'ap/vim-buftabline'
-"---quickfix window control---
-Plugin 'milkypostman/vim-togglelist'
-"---asynchronous quickfix window when run command
-Plugin 'skywind3000/asyncrun.vim'
-"---conque shell term----
-Plugin 'rosenfeld/conque-term'
-" Plugin 'shougo/neocomplete.vim'
-"---autocomplete
-" Plugin 'valloric/youcompleteme' " too large approximiately 200MB ..
-"---colorscheme----
-" Plugin 'chriskempson/base16-vim'
-Plugin 'reedes/vim-colors-pencil'
-Plugin 'tomasr/molokai' 
-Plugin 'altercation/vim-colors-solarized' "solorized
-Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
+"---vundle---
+so vim/vundle.vim
+"---common---
+so vim/common.vim
 
-"--------All of your Vundle Plugins must be added before the following line---------
-call vundle#end()            " required
-filetype plugin indent on    " required
-
-
-" use utf-8 encoding
-set encoding=utf-8
-" Set 'nocompatible' to ward off unexpected things that your distro might
-" have made, as well as sanely reset options when re-sourcing .vimrc
-set nocompatible
- 
-" Enable syntax highlighting
-syntax on
-set hidden
-set wildmenu
-set showcmd
-set hlsearch
-set nomodeline
-set ignorecase
-set smartcase
-set backspace=indent,eol,start
-set autoindent
-set nostartofline
-set ruler
-" Always display the status line, even if only one window is displayed
-set laststatus=2
-" Instead of failing a command because of unsaved changes, instead raise a
-" dialogue asking if you wish to save changed files.
-set confirm
-" Use visual bell instead of beeping when doing something wrong
-set visualbell
-" And reset the terminal code for the visual bell. If visualbell is set, and
-" this line is also included, vim will neither flash nor beep. If visualbell
-" is unset, this does nothing.
-set t_vb=
-" Enable use of the mouse for all modes
-set mouse=a
-" Set the command window height to 2 lines, to avoid many cases of having to
-" "press <Enter> to continue"
-" set cmdheight=2
-" Display line numbers on the left
-set number
-" Use <F11> to toggle between 'paste' and 'nopaste'
-set pastetoggle=<F11>
- 
-"softwrap setting
-set wrap linebreak nolist
-" no backup
-set nobackup
-set nowb
-set noswapfile
-" set indent
-set autoindent
-set noexpandtab
-set tabstop=8
-set shiftwidth=8
-" fold
-set foldmethod=expr
 
 " "----pandoc-------
 let g:pandoc#folding#level = 6
@@ -153,17 +55,21 @@ let g:pandoc#syntax#conceal#use = 0 "no rendering of formulas
 "-------color theme-------
 set background=dark
 " set background=light
-" colorscheme molokai
+colorscheme molokai
 " colorscheme morning
 " colorscheme pencil
 " colorscheme solarized
 " colorscheme cobalt2
-colorscheme darkblue
+" colorscheme darkblue
 "---turn off error highlight---
 au ColorScheme * hi Error NONE
 au ColorScheme * hi ErrorMsg NONE
 ""-------airline - status bar------
 let g:airline_theme='simple' 
+" let g:airline_theme='light' 
+" let g:airline_theme='dark' 
+" let g:airline_theme='luna' 
+let g:airline_powerline_fonts = 1 "use fancy fonts
 let g:airline#extensions#tabline#show_buffers = 1
 "---word count---
 let g:airline#extensions#wordcount#enabled = 1
@@ -183,7 +89,7 @@ let g:airline#extensions#wordcount#enabled = 1
 " let g:pencil_neutral_code_bg = 1   " 0=gray (def), 1=normal
 
 "-------caret color-----
-"hi Cursor guifg=white guibg=brown
+hi Cursor guifg=white guibg=brown
 
 
 
@@ -197,7 +103,6 @@ augroup lexical
 augroup END
 "set misspelled word highlight
 " hi SpellBad guifg=Brown ctermfg=Brown
-
 " short cuts
 " ]s - Move to next misspelled word after the cursor.
 " [s - Like ]s but search backwards
