@@ -4,9 +4,9 @@
 " URL: http://vim.wikia.com/wiki/Example_vimrc
 "------------------------------------------------------------
 
-"---vundle---
-so vim/vundle.vim
-so vim/common.vim
+
+so vim/vundle.vim "vundle
+so vim/common.vim 
 so vim/font.vim
 so vim/colorscheme.vim
 so vim/keymap.vim
@@ -14,12 +14,10 @@ so vim/pandoc.vim
 so vim/spell.vim
 so vim/markdown.vim
 so vim/nerdtree.vim
-"---force syntax---
-so vim/syntax.vim 
-"---asyncrun---
+so vim/syntax.vim "force syntax
 so vim/asyncrun.vim
-so vim/neocomplete.vim
-so vim/omnicomplete.vim
+so vim/neocomplete.vim "not used
+so vim/omnicomplete.vim 
 
 
 
