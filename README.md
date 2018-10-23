@@ -1,13 +1,10 @@
-
+My vim configuration.
 
 Author: Feng George Yu
 
 This vimrc example is based on the following example:
 
 * URL: http://vim.wikia.com/wiki/Example_vimrc
-
-
-My vim configuration.
 
 ## Install
 
