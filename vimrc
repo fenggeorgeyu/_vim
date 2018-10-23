@@ -35,6 +35,7 @@ endif
 "
 
 " fyu
+
 "---vundle---
 so vim/vundle.vim
 "---common---
