@@ -1,3 +1,8 @@
+" disable mouse model
+if has('mouse')
+ set mouse=a
+endif
+
 " use utf-8 encoding
 set encoding=utf-8
 " Set 'nocompatible' to ward off unexpected things that your distro might
@@ -14,7 +19,6 @@ set nomodeline
 set ignorecase
 set smartcase
 set backspace=indent,eol,start
-set autoindent
 set nostartofline
 set ruler
 " Always display the status line, even if only one window is displayed
