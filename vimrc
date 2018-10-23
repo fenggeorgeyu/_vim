@@ -1,20 +1,8 @@
+" 
+" Author: Feng George Yu
+" This vimrc example is based on the following example:
 " URL: http://vim.wikia.com/wiki/Example_vimrc
-" Authors: http://vim.wikia.com/wiki/Vim_on_Freenode
-" Description: A minimal, but feature rich, example .vimrc. If you are a
-"              newbie, basing your first .vimrc on this file is a good choice.
-"              If you're a more advanced user, building your own .vimrc based
-"              on this file is still a good idea.
- 
 "------------------------------------------------------------
-
-" fyu
-
- 
-"------------------------------------------------------------
-"
-"
-
-" fyu
 
 "---vundle---
 so vim/vundle.vim
