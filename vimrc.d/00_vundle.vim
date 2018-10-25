@@ -43,6 +43,10 @@ Plugin 'reedes/vim-colors-pencil'
 Plugin 'tomasr/molokai' 
 Plugin 'altercation/vim-colors-solarized' "solorized
 Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
+" Plugin 'tyrannicaltoucan/vim-quantum' "quantumn colorscheme 
+Plugin 'drewtempelmeyer/palenight.vim'
+" Plugin 'rakr/vim-one' 
+
 
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required

@@ -39,8 +39,6 @@ set mouse=a
 " set cmdheight=2
 " Display line numbers on the left
 set number
-set cursorline "show current line
-" set cursorcolumn "show current column
 " Use <F11> to toggle between 'paste' and 'nopaste'
 set pastetoggle=<F11>
  

@@ -1,18 +1,21 @@
 "-------color theme-------
-set background=dark
+" set background=dark
 " set background=light
-colorscheme molokai
+" colorscheme molokai
 " colorscheme morning
 " colorscheme pencil
 " colorscheme solarized
 " colorscheme cobalt2
 " colorscheme darkblue
+colorscheme palenight
 "-------caret color-----
-hi Cursor guifg=white guibg=brown
+" hi Cursor guifg=white guibg=brown
 "---turn off error highlight---
 au ColorScheme * hi Error NONE
 au ColorScheme * hi ErrorMsg NONE
-
+"---highlight current line and column
+" set cursorline "show current line
+" set cursorcolumn "show current column
 "---colorcheme for gui----
 " if has("gui_macvim")
 " 	set background=light
