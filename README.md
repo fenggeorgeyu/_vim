@@ -17,6 +17,14 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 Second, start vim, type `:` and type `PluginInstall` to install plugins. Restart vim and start using it.
 
+## Install `YouCompleteMe`
+
+Support C-family languages, Go, and Java:
+
+	brew install cmake go
+	python3 ./install.py --clang-completer --go-completer --java-completer 
+
+
 ## Other Issues
 
 * For `golang` the `vim-go` requires newer version of vim. The warning is disabled in `vimrc`.
