@@ -8,6 +8,22 @@ nnoremap <C-Up> <C-W><C-K>
 nnoremap <C-Right> <C-W><C-L>
 nnoremap <C-Left> <C-W><C-H>
 
+"change tab switch
+"change tab cmd-shift-L/R
+noremap <D-S-Left> gT
+noremap <D-S-Right> gt
+
+
+"---vim-buftabline---
+"previous buffer
+noremap <D-[> :bprev<CR>
+"next buffer
+noremap <D-]> :bnext<CR>
+""close buffer
+noremap <D-k> :bd<CR>
+" noremap <C-w> :bd<CR>
+
+
 "disable `c` for cut
 " this will interrupt with comment
 noremap c <Nop>
@@ -46,18 +62,5 @@ nnoremap f w
 noremap <D-Left> g0
 noremap <D-Right> g$
 
-"change tab switch
-"change tab cmd-shift-L/R
-noremap <D-S-Left> gT
-noremap <D-S-Right> gt
 
-
-"---vim-buftabline---
-"previous buffer
-noremap <D-[> :bprev<CR>
-"next buffer
-noremap <D-]> :bnext<CR>
-""close buffer
-noremap <D-k> :bd<CR>
-" noremap <C-w> :bd<CR>
 
