@@ -22,6 +22,7 @@ Second, start vim, type `:` and type `PluginInstall` to install plugins. Restart
 Support C-family languages, Go, and Java:
 
 	brew install cmake go
+	cd ~/.vim/bundle/youcompleteme/
 	python3 ./install.py --clang-completer --go-completer --java-completer 
 
 
