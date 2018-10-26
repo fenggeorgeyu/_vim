@@ -10,9 +10,10 @@ nnoremap <C-Left> <C-W><C-H>
 
 "change tab switch
 "change tab cmd-shift-L/R
-noremap <D-S-Left> gT
-noremap <D-S-Right> gt
-
+" noremap <D-S-Left> gT
+" noremap <D-S-Right> gt
+map <D-S-Left> gt
+map <D-S-Right> gT
 
 "---vim-buftabline---
 "previous buffer
