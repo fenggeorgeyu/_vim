@@ -46,6 +46,8 @@ Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
 " Plugin 'tyrannicaltoucan/vim-quantum' "quantumn colorscheme 
 Plugin 'drewtempelmeyer/palenight.vim'
 " Plugin 'rakr/vim-one' 
+"---tag list bar---
+Plugin 'majutsushi/tagbar'
 
 
 "--------All of your Vundle Plugins must be added before the following line---------
