@@ -14,7 +14,7 @@ colorscheme palenight
 au ColorScheme * hi Error NONE
 au ColorScheme * hi ErrorMsg NONE
 "---highlight current line and column
-" set cursorline "show current line
+set cursorline "show current line
 " set cursorcolumn "show current column
 "---colorcheme for gui----
 " if has("gui_macvim")

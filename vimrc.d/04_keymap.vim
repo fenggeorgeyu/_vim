@@ -18,10 +18,13 @@ map <D-S-Right> gT
 "---vim-buftabline---
 "previous buffer
 noremap <D-[> :bprev<CR>
+noremap <leader>[ :bprev<CR>
 "next buffer
 noremap <D-]> :bnext<CR>
+noremap <leader>] :bnext<CR>
 ""close buffer
 noremap <D-k> :bd<CR>
+noremap <leader>k :bd<CR>
 " noremap <C-w> :bd<CR>
 
 
