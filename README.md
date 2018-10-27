@@ -29,6 +29,11 @@ Support C-family languages, Go, and Java:
 ## Other Issues
 
 * For `golang` the `vim-go` requires newer version of vim. The warning is disabled in `vimrc`.
+* Black screen on Full Screen? [link](https://github.com/macvim-dev/macvim/wiki/FAQ#black-screen-on-full-screen)
+
+	Execute the following command in Terminal.app if you're using Use Core Text renderer and Prefer native full-screen support in Preferences > Advanced.
+
+		defaults write org.vim.MacVim MMUseCGLayerAlways -bool YES
 
 ## Screenshot
 
