@@ -23,6 +23,7 @@ SOURCE_EXTENSIONS = [
         '.cpp',
         '.cxx',
         '.cc',
+        '.cu',
         '.c',
         '.m',
         '.mm'
@@ -37,6 +38,7 @@ HEADER_EXTENSIONS = [
         '.h',
         '.hxx',
         '.hpp',
+        '.cuh',
         '.hh'
         ]
 
