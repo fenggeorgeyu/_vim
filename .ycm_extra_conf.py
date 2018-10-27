@@ -43,7 +43,9 @@ HEADER_EXTENSIONS = [
 HEADER_DIRECTORIES = [
         'include',
         '/usr/include',
-        '/usr/local/include'
+        '/usr/local/include',
+        '/usr/local/cuda/*/include',
+        '-isystem'
         ]
 
 BUILD_DIRECTORY = 'build';
