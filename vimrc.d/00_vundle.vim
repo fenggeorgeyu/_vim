@@ -48,7 +48,9 @@ Plugin 'drewtempelmeyer/palenight.vim'
 " Plugin 'rakr/vim-one' 
 "---tag list bar---
 Plugin 'majutsushi/tagbar'
-
+"---Conque DB for gdb---
+Plugin 'lrvick/Conque-Shell'
+Plugin 'Conque-GDB'
 
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
