@@ -23,9 +23,12 @@ noremap <leader>[ :bprev<CR>
 noremap <D-]> :bnext<CR>
 noremap <leader>] :bnext<CR>
 ""close buffer
-noremap <D-k> :bd<CR>
-noremap <leader>k :bd<CR>
-" noremap <C-w> :bd<CR>
+" noremap <D-k> :bd<CR>
+" noremap <leader>k :bd<CR>
+" noremap <D-k> :BD<CR>
+" noremap <leader>k :BD<CR>
+noremap <D-k> :bp\|bd #<CR>
+noremap <leader>k :bp\|bd #<CR>
 
 
 "disable `c` for cut
@@ -66,5 +69,8 @@ nnoremap f w
 noremap <D-Left> g0
 noremap <D-Right> g$
 
-
-
+" backspace in iterm
+set backspace=indent,eol,start
+" noremap! <M-BS> <C-w>
+" noremap! <M-h> <C-w>
+imap <A-BS> <C-W>
