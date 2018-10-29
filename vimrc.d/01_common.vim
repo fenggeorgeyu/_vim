@@ -53,6 +53,6 @@ set autoindent
 set noexpandtab
 set tabstop=4
 set shiftwidth=4
-" fold
-set foldmethod=expr
+set foldmethod=expr " fold
+
 

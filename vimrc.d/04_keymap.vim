@@ -69,8 +69,14 @@ nnoremap f w
 noremap <D-Left> g0
 noremap <D-Right> g$
 
+"---backspace---
 " backspace in iterm
 set backspace=indent,eol,start
-" noremap! <M-BS> <C-w>
-" noremap! <M-h> <C-w>
-imap <A-BS> <C-W>
+
+" imap <C-BS> <C-W>
+" noremap! <C-BS> <C-w>
+" noremap! <C-h> <C-w>
+" inoremap <C-w> <C-\><C-o>dB
+" inoremap <C-BS> <C-\><C-o>db
+"
+
