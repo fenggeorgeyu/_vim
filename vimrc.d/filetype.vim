@@ -5,6 +5,7 @@ augroup filetypedetect
 	au BufRead,BufNewFile *.csv set filetype=cvsrc
 	au BufRead,BufNewFile *.ejs set filetype=html
 	au BufRead,BufNewFile *.md,*.txt,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn set filetype=markdown
-	au BufRead,BufNewFile *.cu set filetype=cuda
+	" au BufRead,BufNewFile *.cu set filetype=cuda
+	au BufRead,BufNewFile *.cu set filetype=cpp
 augroup END
 
