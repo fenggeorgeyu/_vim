@@ -12,8 +12,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ascenator/L9', {'name': 'newL9'}
 "----markdown----
 " document include keys: https://github.com/vim-pandoc/vim-pandoc/blob/master/doc/pandoc.txt
-" Plugin 'vim-pandoc/vim-pandoc'
-" Plugin 'vim-pandoc/vim-pandoc-syntax'
+Plugin 'vim-pandoc/vim-pandoc'
+Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 "----markdown--end--
 Plugin 'vim-airline/vim-airline'
@@ -45,9 +45,10 @@ Plugin 'reedes/vim-colors-pencil'
 Plugin 'tomasr/molokai' 
 Plugin 'altercation/vim-colors-solarized' "solorized
 Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
-" Plugin 'tyrannicaltoucan/vim-quantum' "quantumn colorscheme 
-Plugin 'drewtempelmeyer/palenight.vim'
+" Plugin 'tyrannicaltoucan/vim-quantum' "quantumn 
+Plugin 'drewtempelmeyer/palenight.vim' "palenight
 " Plugin 'rakr/vim-one' 
+Plugin 'jnurmine/Zenburn' "zenburn 
 "---tag list bar---
 Plugin 'majutsushi/tagbar'
 "---Conque DB for gdb---
