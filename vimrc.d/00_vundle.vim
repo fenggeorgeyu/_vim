@@ -37,6 +37,8 @@ Plugin 'rosenfeld/conque-term'
 "---autocomplete
 " Plugin 'shougo/neocomplete.vim'
 Plugin 'valloric/youcompleteme' " too large approximiately 200MB ..
+"---programming grammar check---
+Plugin 'scrooloose/syntastic'
 "---colorscheme----
 " Plugin 'chriskempson/base16-vim'
 Plugin 'reedes/vim-colors-pencil'
