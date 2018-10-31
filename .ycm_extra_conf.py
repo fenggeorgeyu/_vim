@@ -19,6 +19,21 @@ BASE_FLAGS = [
         '-I/usr/include/'
         ]
 
+
+cpp_flags = ['-x', 'c++']
+
+cuda_flags = ['-x', 'cuda', '--cuda-gpu-arch=sm_35']
+
+common = ['-std=c++11',
+          '-DUSE_CLANG_COMPLETER',
+          '-I/usr/local/include',
+          '-I/usr/include/clang/3.5/include',
+          '-I/usr/include/x86_64-linux-gnu',
+          '-I/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/include',
+          '-I/usr/include',
+          '-I/usr/include/c++/4.9']
+
+
 SOURCE_EXTENSIONS = [
         '.cpp',
         '.cxx',
