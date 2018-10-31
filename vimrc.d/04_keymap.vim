@@ -1,3 +1,7 @@
+" change the mapleader from \ to ;
+let mapleader=";"
+
+
 " switch windows
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
