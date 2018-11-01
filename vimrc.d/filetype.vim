@@ -6,6 +6,6 @@ augroup filetypedetect
 	au BufRead,BufNewFile *.ejs set filetype=html
 	au BufRead,BufNewFile *.md,*.txt,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn set filetype=markdown
 	au BufRead,BufNewFile *.cu set filetype=cuda
-	" au BufRead,BufNewFile *.cu set filetype=cpp
+	au BufRead,BufNewFile *.job set filetype=cuda "qsub job file highligh in shell
 augroup END
 
