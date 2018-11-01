@@ -54,7 +54,8 @@ Plugin 'majutsushi/tagbar'
 "---Conque DB for gdb---
 " Plugin 'Conque-GDB'
 Plugin 'cyrus-and/gdb-dashboard'
-
+"---show indent line---
+Plugin 'yggdroot/indentline'
 
 
 "--------All of your Vundle Plugins must be added before the following line---------
