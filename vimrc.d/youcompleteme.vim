@@ -9,4 +9,4 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
 
 " do not use ycm on the following files
-let g:ycm_filetype_blacklist = { 'vimshell': 1, 'cuda': 1, 'markdown': 1  }
+let g:ycm_filetype_blacklist = { 'vimshell': 1, 'cuda': 1, 'markdown': 1, 'pandoc': 1  }
