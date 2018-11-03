@@ -1,6 +1,6 @@
 " change the mapleader from \ to ;
 let mapleader=";"
-
+:let maplocalleader = "'"
 
 " switch windows
 nnoremap <C-J> <C-W><C-J>
