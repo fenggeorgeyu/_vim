@@ -11,8 +11,10 @@ Plugin 'tpope/vim-fugitive'
 " different version somewhere else.
 Plugin 'ascenator/L9', {'name': 'newL9'}
 "----markdown----
-" document include keys: https://github.com/vim-pandoc/vim-pandoc/blob/master/doc/pandoc.txt
+"https://github.com/plasticboy/vim-markdown/blob/master/doc/vim-markdown.txt
+Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+" document include keys: https://github.com/vim-pandoc/vim-pandoc/blob/master/doc/pandoc.txt
 " Plugin 'vim-pandoc/vim-pandoc'
 " Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'JamshedVesuna/vim-markdown-preview'
