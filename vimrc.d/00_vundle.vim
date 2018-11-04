@@ -59,6 +59,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'cyrus-and/gdb-dashboard'
 "---show indent line---
 Plugin 'yggdroot/indentline'
+"---json----
+Plugin 'elzr/vim-json'
 
 
 "--------All of your Vundle Plugins must be added before the following line---------
