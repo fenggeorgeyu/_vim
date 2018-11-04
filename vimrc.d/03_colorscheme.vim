@@ -11,6 +11,7 @@
 colorscheme zenburn
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
+hi Cursor guifg=white guibg=red
 "---turn off error highlight---
 au ColorScheme * hi Error NONE
 au ColorScheme * hi ErrorMsg NONE
