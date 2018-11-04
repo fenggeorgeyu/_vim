@@ -9,6 +9,10 @@ let g:pandoc#keyboard#use_default_mappings = 1 "localleader is '\'
 let g:pandoc#syntax#conceal#use = 0 "no rendering of formulas 
 let PandocUnhighlight = ["latex"]
 "let g:pandoc#command#latex_engine=None
+" let g:pandoc#filetypes#pandoc_markdown = 0 "do not affect markdown file type
+let g:pandoc#modules#disabled=["chdir"] "do not change dir when open a file
+
+
 "
 "pandoc shortcut key mapping
 " - *<localleader>i*     toggles emphasis [vn]
