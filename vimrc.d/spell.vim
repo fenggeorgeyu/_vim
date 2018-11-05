@@ -5,12 +5,16 @@ setlocal spell spelllang=en_us
 autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd FileType gitcommit setlocal spell
 
-augroup lexical
-  autocmd!
-  autocmd FileType markdown,mkd,md call lexical#init()
-  autocmd FileType textile call lexical#init()
-  autocmd FileType text call lexical#init({ 'spell': 0 })
-augroup END
+"---disable spell check for the following file types
+autocmd FileType bib setlocal nospell "bibtex
+autocmd FileType vim setlocal nospell "vim script
+
+" augroup lexical
+"   autocmd!
+"   autocmd FileType markdown,mkd,md call lexical#init()
+"   autocmd FileType textile call lexical#init()
+"   autocmd FileType text call lexical#init({ 'spell': 0 })
+" augroup END
 
 "---word completion---
 "set complete+=kspell
