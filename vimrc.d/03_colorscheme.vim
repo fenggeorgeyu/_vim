@@ -7,8 +7,8 @@
 " colorscheme solarized
 " colorscheme cobalt2
 " colorscheme darkblue
-" colorscheme palenight
-colorscheme zenburn
+colorscheme palenight
+" colorscheme zenburn
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
 hi Cursor guifg=white guibg=red
