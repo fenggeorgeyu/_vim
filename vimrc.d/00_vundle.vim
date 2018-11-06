@@ -11,12 +11,13 @@ Plugin 'ascenator/L9', {'name': 'newL9'}
 " plugin for Git
 Plugin 'tpope/vim-fugitive'
 "----markdown----
+" markdown highlighting is implemented by vim-polyglot
 """https://github.com/plasticboy/vim-markdown/blob/master/doc/vim-markdown.txt
 "Plugin 'godlygeek/tabular'
 "Plugin 'plasticboy/vim-markdown'
 " document include keys: https://github.com/vim-pandoc/vim-pandoc/blob/master/doc/pandoc.txt
-Plugin 'vim-pandoc/vim-pandoc'
-Plugin 'vim-pandoc/vim-pandoc-syntax'
+" Plugin 'vim-pandoc/vim-pandoc'
+" Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 "----markdown--end--
 Plugin 'vim-airline/vim-airline'
@@ -61,7 +62,8 @@ Plugin 'cyrus-and/gdb-dashboard'
 Plugin 'yggdroot/indentline'
 "---json----
 Plugin 'elzr/vim-json'
-
+"---syntax---
+Plugin 'sheerun/vim-polyglot'
 
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
