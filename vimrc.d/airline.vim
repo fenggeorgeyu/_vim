@@ -6,7 +6,7 @@
 " let g:airline_theme='molokai' 
 " let g:airline_theme='onedark' 
 " let g:airline_theme='seagull' 
-let g:airline_theme='silver' 
+" let g:airline_theme='silver' 
 " let g:airline_theme='tomorrow' 
 let g:airline_powerline_fonts = 1 "use fancy fonts
 let g:airline#extensions#tabline#show_buffers = 1
