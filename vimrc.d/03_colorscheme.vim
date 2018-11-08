@@ -1,6 +1,6 @@
 "-------color theme-------
 " set background=dark
-" set background=light
+set background=light
 " colorscheme molokai
 " colorscheme morning
 " colorscheme pencil
@@ -8,7 +8,8 @@
 " colorscheme cobalt2
 " colorscheme darkblue
 " colorscheme palenight
-colorscheme zenburn
+" colorscheme zenburn
+colorscheme macvim
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
 " hi Cursor guifg=white guibg=red
