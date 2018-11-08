@@ -45,7 +45,7 @@ set cursorline "show current line
  	set background=light
   	colorscheme macvim
  	" let g:airline_theme='aurora' 
- 	" let g:airline_theme='silver' 
+ 	let g:airline_theme='silver' 
  endif
 
 "-------vim-colors-pencil---------
