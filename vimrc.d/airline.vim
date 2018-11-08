@@ -8,7 +8,7 @@
 " let g:airline_theme='seagull' 
 let g:airline_theme='silver' 
 " let g:airline_theme='tomorrow' 
-" let g:airline_powerline_fonts = 1 "use fancy fonts
+let g:airline_powerline_fonts = 1 "use fancy fonts, use the patched font of Consolas-with-Yahei at https://github.com/crvdgc/Consolas-with-Yahei
 let g:airline#extensions#tabline#show_buffers = 1
 let g:airline#extensions#wordcount#enabled = 1 "word count
 " let g:airline#extensions#tabline#enabled = 1 "Automatically displays all buffers when there's only one tab open.
