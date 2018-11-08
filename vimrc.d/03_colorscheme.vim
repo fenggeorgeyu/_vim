@@ -20,7 +20,7 @@
 " colorscheme cobalt2
 " colorscheme darkblue
 " colorscheme palenight
-" colorscheme zenburn
+colorscheme zenburn
 " colorscheme macvim
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
@@ -41,12 +41,12 @@ au ColorScheme * hi ErrorMsg NONE
 set cursorline "show current line
 " set cursorcolumn "show current column
 "---colorcheme for gui----
- if has("gui_macvim")
- 	set background=light
-  	colorscheme macvim
- 	" let g:airline_theme='aurora' 
- 	let g:airline_theme='silver' 
- endif
+if has("gui_macvim")
+	set background=light
+ 	colorscheme macvim
+	" let g:airline_theme='aurora' 
+	let g:airline_theme='silver' 
+endif
 
 "-------vim-colors-pencil---------
 " colorscheme pencil
