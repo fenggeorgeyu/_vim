@@ -1,6 +1,6 @@
 "-------color theme-------
 " set background=dark
-set background=light
+" set background=light
 " colorscheme molokai
 " colorscheme morning
 " colorscheme pencil
@@ -8,8 +8,8 @@ set background=light
 " colorscheme cobalt2
 " colorscheme darkblue
 " colorscheme palenight
-" colorscheme zenburn
-colorscheme macvim
+colorscheme zenburn
+" colorscheme macvim
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
 " hi Cursor guifg=white guibg=red
@@ -19,12 +19,13 @@ au ColorScheme * hi ErrorMsg NONE
 "---highlight current line and column
 set cursorline "show current line
 " set cursorcolumn "show current column
-"---colorcheme for gui----
-" if has("gui_macvim")
-" 	set background=light
-"  	colorscheme macvim
-" 	let g:airline_theme='aurora' 
-" endif
+""---colorcheme for gui----
+"if has("gui_macvim")
+"	set background=light
+" 	colorscheme macvim
+"	" let g:airline_theme='aurora' 
+"	let g:airline_theme='silver' 
+"endif
 
 "-------vim-colors-pencil---------
 " colorscheme pencil
