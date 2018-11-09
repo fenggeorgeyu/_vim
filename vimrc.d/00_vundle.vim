@@ -64,6 +64,8 @@ Plugin 'yggdroot/indentline'
 Plugin 'elzr/vim-json'
 "---syntax---
 Plugin 'sheerun/vim-polyglot'
+"---YCM Generator---
+" Plugin 'rdnetto/YCM-Generator'
 
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
