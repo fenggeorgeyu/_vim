@@ -43,7 +43,8 @@ set cursorline "show current line
 "---colorcheme for gui----
 if has("gui_macvim")
 	set background=light
- 	colorscheme macvim
+	" colorscheme macvim
+ 	colorscheme zenburn
 	" let g:airline_theme='aurora' 
 	let g:airline_theme='silver' 
 endif
