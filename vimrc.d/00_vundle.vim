@@ -40,7 +40,9 @@ Plugin 'skywind3000/asyncrun.vim'
 Plugin 'rosenfeld/conque-term'
 "---autocomplete
 " Plugin 'shougo/neocomplete.vim'
-Plugin 'valloric/youcompleteme' " too large approximiately 200MB ..
+if v:version > 800 "only for vim > 8.0
+	Plugin 'valloric/youcompleteme' " too large approximiately 200MB ..
+endif
 "---programming grammar check---
 Plugin 'scrooloose/syntastic'
 "---colorscheme----
