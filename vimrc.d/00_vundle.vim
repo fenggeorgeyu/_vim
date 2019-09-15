@@ -10,14 +10,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ascenator/L9', {'name': 'newL9'}
 " plugin for Git
 Plugin 'tpope/vim-fugitive'
-"----markdown----
-" markdown highlighting is implemented by vim-polyglot
-"""https://github.com/plasticboy/vim-markdown/blob/master/doc/vim-markdown.txt
-"Plugin 'godlygeek/tabular'
-"Plugin 'plasticboy/vim-markdown'
-" document include keys: https://github.com/vim-pandoc/vim-pandoc/blob/master/doc/pandoc.txt
-" Plugin 'vim-pandoc/vim-pandoc'
-" Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 "----markdown--end--
 Plugin 'vim-airline/vim-airline'
@@ -49,11 +41,7 @@ Plugin 'scrooloose/syntastic'
 " Plugin 'chriskempson/base16-vim'
 Plugin 'reedes/vim-colors-pencil'
 Plugin 'tomasr/molokai' 
-Plugin 'altercation/vim-colors-solarized' "solorized
 Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
-" Plugin 'tyrannicaltoucan/vim-quantum' "quantumn 
-Plugin 'drewtempelmeyer/palenight.vim' "palenight
-" Plugin 'rakr/vim-one' 
 Plugin 'jnurmine/Zenburn' "zenburn 
 "---tag list bar---
 Plugin 'majutsushi/tagbar'

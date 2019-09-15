@@ -1,21 +1,21 @@
 "---spell check error highligthing---
 "SpellBad, SpellCap, SpellRare, SpellLocal
 " autocmd ColorScheme * hi clear SpellBad
-" 	\| hi SpellBad gui=undercurl guisp=red guibg=bg
+"     \| hi SpellBad gui=undercurl guisp=red guibg=bg
 " autocmd ColorScheme * hi clear SpellRare
 "     \| hi SpellRare gui=undercurl guisp=yellow guibg=bg
 " autocmd ColorScheme * hi clear SpellCap
 "     \| hi SpellCap gui=undercurl guisp=orange guibg=bg
 " autocmd ColorScheme * hi clear SpellLocal
 "     \| hi SpellLocal gui=undercurl guisp=brown guibg=bg
-    " \| hi SpellBad gui=underline,bold guifg=white guibg=black
-    " \| hi SpellBad cterm=underline,bold ctermfg=white ctermbg=black
+"	  \| hi SpellBad gui=underline,bold guifg=white guibg=black
+"	  \| hi SpellBad cterm=underline,bold ctermfg=white ctermbg=black
 "-------color theme-------
 set background=dark
 " set background=light
 " colorscheme molokai
 " colorscheme morning
-colorscheme pencil
+" colorscheme pencil
 " colorscheme solarized
 " colorscheme cobalt2
 " colorscheme darkblue

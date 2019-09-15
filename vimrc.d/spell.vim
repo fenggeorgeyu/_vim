@@ -1,5 +1,5 @@
 "-------spell check--------
-
+set nospell "disable spell checking by default
 setlocal spell spelllang=en_us
 
 autocmd BufRead,BufNewFile *.md setlocal spell
