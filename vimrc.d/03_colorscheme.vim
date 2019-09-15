@@ -15,13 +15,18 @@ set background=dark
 " set background=light
 " colorscheme molokai
 " colorscheme morning
-" colorscheme pencil
-" colorscheme solarized
 " colorscheme cobalt2
 " colorscheme darkblue
-" colorscheme palenight
 " colorscheme zenburn
-" colorscheme macvim
+"-------vim-colors-pencil---------
+" colorscheme pencil
+"--- code background ---
+" let g:pencil_neutral_code_bg = 1   " 0=gray (def), 1=normal
+
+"-------airline theme------
+" let g:airline_theme='silver' 
+" let g:airline_theme='cool' 
+
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
 " hi Cursor guifg=white guibg=red
@@ -51,10 +56,6 @@ if has("gui_macvim")
 	" let g:airline_theme='silver' 
 endif
 
-"-------vim-colors-pencil---------
-" colorscheme pencil
-" code background
-" let g:pencil_neutral_code_bg = 1   " 0=gray (def), 1=normal
 
 
 
