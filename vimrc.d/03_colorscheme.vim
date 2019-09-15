@@ -11,16 +11,16 @@
     " \| hi SpellBad gui=underline,bold guifg=white guibg=black
     " \| hi SpellBad cterm=underline,bold ctermfg=white ctermbg=black
 "-------color theme-------
-" set background=dark
+set background=dark
 " set background=light
 " colorscheme molokai
 " colorscheme morning
-" colorscheme pencil
+colorscheme pencil
 " colorscheme solarized
 " colorscheme cobalt2
 " colorscheme darkblue
 " colorscheme palenight
-colorscheme zenburn
+" colorscheme zenburn
 " colorscheme macvim
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
@@ -38,15 +38,17 @@ au ColorScheme * hi Error NONE
 au ColorScheme * hi ErrorMsg NONE
 
 "---highlight current line and column
-set cursorline "show current line
+" set cursorline "show current line
 " set cursorcolumn "show current column
 "---colorcheme for gui----
 if has("gui_macvim")
-	set background=light
+	" set background=light
 	" colorscheme macvim
- 	colorscheme zenburn
+	colorscheme darkblue
+	" colorscheme pencil
+ 	" colorscheme zenburn
 	" let g:airline_theme='aurora' 
-	let g:airline_theme='silver' 
+	" let g:airline_theme='silver' 
 endif
 
 "-------vim-colors-pencil---------

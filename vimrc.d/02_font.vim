@@ -4,13 +4,13 @@
 " font
 if has("gui_running")
     if has("gui_gtk2")
-        set guifont=Inconsolata\ 18
+        set guifont=Inconsolata\ 17
     elseif has("gui_macvim")
         " set guifont=Menlo:h16
         " set guifont=Monaco:h16
         " set guifont=Menlo\ Regular:h18
 		" https://github.com/wuqiling97/Consolas-with-Yahei
-        set guifont=Consolas-with-Yahei:h18 
+        set guifont=Consolas-with-Yahei:h17
 		" use powerline font for airline
 		" git clone git@github.com:powerline/fonts.git
 		" cd fonts

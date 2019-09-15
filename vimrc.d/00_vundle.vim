@@ -68,7 +68,8 @@ Plugin 'elzr/vim-json'
 Plugin 'sheerun/vim-polyglot'
 "---YCM Generator---
 " Plugin 'rdnetto/YCM-Generator'
-
+"----file plugin---
+" Plugin 'ctrlpvim/ctrlp.vim'
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
 filetype plugin indent on    " required

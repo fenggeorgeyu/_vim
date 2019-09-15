@@ -55,4 +55,15 @@ set tabstop=4
 set shiftwidth=4
 set foldmethod=expr " fold
 
+" set to use system clipboard 
+" if g:os == "Darwin" || g:os == "Windows"
+" 	set clipboard=unname
+" elseif g:os == "Linux"
+" 	set clipboard=unnamedplus
+" endif
 
+if has('mac') 
+	set clipboard=unnamed
+elseif has('unix')
+	set clipboard=unnamedplus
+endif
