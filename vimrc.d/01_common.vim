@@ -57,3 +57,15 @@ set foldmethod=expr " fold
 "---split window below---
 set splitbelow
 
+" set to use system clipboard 
+" if g:os == "Darwin" || g:os == "Windows"
+" 	set clipboard=unname
+" elseif g:os == "Linux"
+" 	set clipboard=unnamedplus
+" endif
+
+if has('mac') 
+	set clipboard=unnamed
+elseif has('unix')
+	set clipboard=unnamedplus
+endif
