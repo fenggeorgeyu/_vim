@@ -43,6 +43,10 @@ Plugin 'reedes/vim-colors-pencil'
 Plugin 'tomasr/molokai' 
 Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
 Plugin 'jnurmine/Zenburn' "zenburn 
+Plugin 'romainl/apprentice' "good dark theme
+" Plugin 'rakr/vim-one' "one-light and one-dark theme
+Plugin 'alessandroyorba/sierra'
+Plugin 'joshdick/onedark.vim'
 "---tag list bar---
 Plugin 'majutsushi/tagbar'
 "---Conque DB for gdb---

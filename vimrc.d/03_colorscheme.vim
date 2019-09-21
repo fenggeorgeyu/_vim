@@ -18,6 +18,13 @@ set background=dark
 " colorscheme cobalt2
 " colorscheme darkblue
 " colorscheme zenburn
+" colorscheme apprentice
+" colorscheme one
+" let g:sierra_Sunset = 1
+" let g:sierra_Twilight = 1
+" colorscheme sierra 
+let g:onedark_termcolors=256
+colorscheme onedark
 "-------vim-colors-pencil---------
 " colorscheme pencil
 "--- code background ---
@@ -49,7 +56,7 @@ au ColorScheme * hi ErrorMsg NONE
 if has("gui_macvim")
 	" set background=light
 	" colorscheme macvim
-	colorscheme darkblue
+	" colorscheme darkblue
 	" colorscheme pencil
  	" colorscheme zenburn
 	" let g:airline_theme='aurora' 

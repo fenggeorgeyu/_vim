@@ -10,7 +10,7 @@ if has("gui_running")
         " set guifont=Monaco:h16
         " set guifont=Menlo\ Regular:h18
 		" https://github.com/wuqiling97/Consolas-with-Yahei
-        set guifont=Consolas-with-Yahei:h17
+        set guifont=Consolas-with-Yahei:h18
 		" use powerline font for airline
 		" git clone git@github.com:powerline/fonts.git
 		" cd fonts
