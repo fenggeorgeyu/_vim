@@ -23,7 +23,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'fatih/vim-go'
 "---buffer on tab---
 "" use tabline in airline extension
-" Plugin 'ap/vim-buftabline'
+Plugin 'ap/vim-buftabline'
 "---quickfix window control---
 Plugin 'milkypostman/vim-togglelist'
 "---asynchronous quickfix window when run command
