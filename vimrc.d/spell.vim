@@ -1,6 +1,6 @@
 "-------spell check--------
-" set nospell "disable spell checking by default
-setlocal spell spelllang=en_us
+set nospell "disable spell checking by default
+" setlocal spell spelllang=en_us
 set spellfile=~/.vim/spell/en.utf-8.add
 
 autocmd BufRead,BufNewFile *.md setlocal spell

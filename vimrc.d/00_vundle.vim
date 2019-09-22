@@ -33,7 +33,8 @@ Plugin 'rosenfeld/conque-term'
 "---autocomplete
 " Plugin 'shougo/neocomplete.vim'
 if v:version > 800 "only for vim > 8.0
-	Plugin 'valloric/youcompleteme' " too large approximiately 200MB ..
+	" Plugin 'valloric/youcompleteme' " too large approximiately 200MB ..
+	Plugin 'fenggeorgeyu/youcompleteme' " too large approximiately 200MB ..
 endif
 "---programming grammar check---
 Plugin 'scrooloose/syntastic'
