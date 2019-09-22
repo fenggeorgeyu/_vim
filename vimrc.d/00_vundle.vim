@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ascenator/L9', {'name': 'newL9'}
 " plugin for Git
 Plugin 'tpope/vim-fugitive'
+"---markdown--------
 Plugin 'JamshedVesuna/vim-markdown-preview'
 "----markdown--end--
 Plugin 'vim-airline/vim-airline'
@@ -20,9 +21,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-commentary'
 "---golang----
 Plugin 'fatih/vim-go'
-"disregard vim version warning
-let g:go_version_warning = 0 
 "---buffer on tab---
+"" use tabline in airline extension
 " Plugin 'ap/vim-buftabline'
 "---quickfix window control---
 Plugin 'milkypostman/vim-togglelist'
@@ -39,14 +39,11 @@ endif
 "---programming grammar check---
 Plugin 'scrooloose/syntastic'
 "---colorscheme----
-" Plugin 'chriskempson/base16-vim'
-" Plugin 'reedes/vim-colors-pencil'
 Plugin 'tomasr/molokai' 
 " Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
 Plugin 'jnurmine/Zenburn' "zenburn 
 " Plugin 'romainl/apprentice' "good dark theme
 " Plugin 'rakr/vim-one' "one-light and one-dark theme
-" Plugin 'alessandroyorba/sierra'
 Plugin 'joshdick/onedark.vim'
 "---tag list bar---
 Plugin 'majutsushi/tagbar'
@@ -57,14 +54,14 @@ Plugin 'cyrus-and/gdb-dashboard'
 Plugin 'yggdroot/indentline'
 "---json----
 Plugin 'elzr/vim-json'
-"---syntax---
-" Plugin 'sheerun/vim-polyglot'
-"---YCM Generator---
-" Plugin 'rdnetto/YCM-Generator'
 "----file plugin---
 Plugin 'ctrlpvim/ctrlp.vim'
 "---align text----
 Plugin 'godlygeek/tabular'
+"---complete closure in programming---
+Plugin 'tpope/vim-endwise'
+"---auto close brackets and others ---
+Plugin 'raimondi/delimitmate'
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
 filetype plugin indent on    " required
