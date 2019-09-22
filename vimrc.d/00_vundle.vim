@@ -63,6 +63,8 @@ Plugin 'elzr/vim-json'
 " Plugin 'rdnetto/YCM-Generator'
 "----file plugin---
 Plugin 'ctrlpvim/ctrlp.vim'
+"---align text----
+Plugin 'godlygeek/tabular'
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
 filetype plugin indent on    " required
