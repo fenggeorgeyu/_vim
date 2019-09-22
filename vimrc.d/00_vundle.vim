@@ -23,7 +23,7 @@ Plugin 'fatih/vim-go'
 "disregard vim version warning
 let g:go_version_warning = 0 
 "---buffer on tab---
-Plugin 'ap/vim-buftabline'
+" Plugin 'ap/vim-buftabline'
 "---quickfix window control---
 Plugin 'milkypostman/vim-togglelist'
 "---asynchronous quickfix window when run command
@@ -40,13 +40,13 @@ endif
 Plugin 'scrooloose/syntastic'
 "---colorscheme----
 " Plugin 'chriskempson/base16-vim'
-Plugin 'reedes/vim-colors-pencil'
+" Plugin 'reedes/vim-colors-pencil'
 Plugin 'tomasr/molokai' 
-Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
+" Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
 Plugin 'jnurmine/Zenburn' "zenburn 
-Plugin 'romainl/apprentice' "good dark theme
+" Plugin 'romainl/apprentice' "good dark theme
 " Plugin 'rakr/vim-one' "one-light and one-dark theme
-Plugin 'alessandroyorba/sierra'
+" Plugin 'alessandroyorba/sierra'
 Plugin 'joshdick/onedark.vim'
 "---tag list bar---
 Plugin 'majutsushi/tagbar'
@@ -58,11 +58,11 @@ Plugin 'yggdroot/indentline'
 "---json----
 Plugin 'elzr/vim-json'
 "---syntax---
-Plugin 'sheerun/vim-polyglot'
+" Plugin 'sheerun/vim-polyglot'
 "---YCM Generator---
 " Plugin 'rdnetto/YCM-Generator'
 "----file plugin---
-" Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
 filetype plugin indent on    " required

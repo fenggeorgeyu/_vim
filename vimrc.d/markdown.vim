@@ -15,7 +15,13 @@ let g:vim_markdown_fenced_languages = ['html', 'python', 'bash=shell']
 
 ""---markdown preview---
 "URL: https://github.com/JamshedVesuna/vim-markdown-preview
-let vim_markdown_preview_hotkey='<C-p>'
 let vim_markdown_preview_github = 1 "need to install grip `brew install grip` before use it
-let vim_markdown_preview_toggle=1 
+" let vim_markdown_preview_toggle=2
+" let vim_markdown_preview_pandoc=1 "need to install pandoc
 let vim_markdown_preview_browser='Google Chrome'
+" let vim_markdown_preview_hotkey='<C-P>'
+let vim_markdown_preview_hotkey='<C-m>' "use ctrl+m to avoid conflict with ctrl+p in `ctrlp` plugin
+
+
+
+
