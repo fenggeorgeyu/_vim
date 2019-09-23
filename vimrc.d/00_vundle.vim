@@ -62,6 +62,14 @@ Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-endwise'
 "---auto close brackets and others ---
 Plugin 'raimondi/delimitmate'
+"--tex---
+Plugin 'lervag/vimtex'
+"---snippets---
+Plugin 'sirver/ultisnips'
+Plugin 'honza/vim-snippets'
+"--citation--
+" Plugin 'rafaqz/citation.vim'
+" Plugin 'junegunn/fzf.vim'
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
 filetype plugin indent on    " required

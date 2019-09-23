@@ -1,0 +1,35 @@
+# https://www.zhihu.com/question/27478597/answer/639544215
+
+snippet date "Date"
+`date +%F`
+endsnippet
+
+
+snippet begend "begin{} / end{}" bA
+\begin{$1}
+    $0
+\end{$1}
+endsnippet
+
+# smartly add a space after inline math, if a word after then add a space; o.w. nothing to added
+snippet mk "Math" wA
+$${1}$`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+    snip.rv = ' '
+else:
+    snip.rv = ''
+`$2
+endsnippet
+
+
+snippet dm "Math" wA
+\[
+$1
+.\] $0
+endsnippet
+
+
+# snippet fr "Fraction" iA
+# # snippet // "Fraction" iA
+# \\frac{$1}{$2}$0
+# endsnippet
