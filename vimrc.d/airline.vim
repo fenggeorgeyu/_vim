@@ -1,3 +1,4 @@
+"" https://github.com/vim-airline/vim-airline/blob/master/doc/airline.txt
 ""-------airline - status bar------
 " let g:airline_theme='simple' 
 " let g:airline_theme='light' 
@@ -17,3 +18,25 @@ let g:airline#extensions#wordcount#enabled = 1 "word count
 " let g:airline#extensions#tabline#left_sep = ' '
 " let g:airline#extensions#tabline#left_alt_sep = '|'
 
+"" turn off displaying trailing white space
+let g:airline_detect_whitespace=0
+
+""define layout
+" let g:airline#extensions#default#layout = [
+"       \ [ 'a', 'b', 'c' ],
+"       \ [ 'x', 'y', 'z', 'error', 'warning' ]
+"       \ ]
+let g:airline#extensions#default#layout = [
+      \ [ 'a', 'b', 'c' ],
+      \ [ 'x', 'y', 'z', 'error' ]
+      \ ]
+
+
+let g:airline#extensions#default#section_truncate_width = {
+  \ 'b': 79,
+  \ 'x': 60,
+  \ 'y': 88,
+  \ 'z': 45,
+  \ 'warning': 80,
+  \ 'error': 80,
+  \ }
