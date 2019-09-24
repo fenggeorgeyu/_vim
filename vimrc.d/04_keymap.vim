@@ -34,6 +34,7 @@ noremap <leader>[ :bprev<CR>
 "next buffer
 noremap <D-]> :bnext<CR>
 noremap <leader>] :bnext<CR>
+noremap <C-tab> :bnext<CR>
 ""close buffer
 " noremap <D-k> :bd<CR>
 " noremap <leader>k :bd<CR>
