@@ -7,10 +7,18 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-nnoremap <C-Down> <C-W><C-J>
-nnoremap <C-Up> <C-W><C-K>
-nnoremap <C-Right> <C-W><C-L>
-nnoremap <C-Left> <C-W><C-H>
+" nnoremap <C-Down> <C-W><C-J>
+" nnoremap <C-Up> <C-W><C-K>
+" nnoremap <C-Right> <C-W><C-L>
+" nnoremap <C-Left> <C-W><C-H>
+
+"---page up/down----
+" C-Up/Down: page up/down
+" C-E/D: page up/down
+map <silent> <C-Up> <C-U>
+map <silent> <C-Down> <C-D>
+map <silent> <C-E> <C-U>
+
 
 "change tab switch
 "change tab cmd-shift-L/R
