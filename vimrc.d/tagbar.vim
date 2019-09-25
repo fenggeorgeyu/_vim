@@ -8,3 +8,7 @@
 " To show the tags you’ve traversed since you opened vim, run :tags.
 " key for tagbar open
 nnoremap <silent> <Leader>b :TagbarToggle<CR>
+
+" keys for tag jump
+" C-] for jump in 
+nnoremap <C-[> <C-t>
