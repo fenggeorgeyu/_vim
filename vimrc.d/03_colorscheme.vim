@@ -23,7 +23,8 @@ set background=dark
 " let g:sierra_Sunset = 1
 " let g:sierra_Twilight = 1
 " colorscheme sierra 
-let g:onedark_termcolors=256
+" "---one dark colorscheme---
+" let g:onedark_termcolors=256
 colorscheme onedark
 "-------vim-colors-pencil---------
 " colorscheme pencil
