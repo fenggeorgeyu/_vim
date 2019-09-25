@@ -11,4 +11,7 @@ nnoremap <silent> <Leader>b :TagbarToggle<CR>
 
 " keys for tag jump
 " C-] for jump in 
+" C-t for jump back
+" do not map <c-[> as following since it will make mouse not working in
+" terminal
 " nnoremap <C-[> <C-t>
