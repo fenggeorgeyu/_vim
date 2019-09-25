@@ -18,14 +18,16 @@ set background=dark
 " colorscheme cobalt2
 " colorscheme darkblue
 " colorscheme zenburn
-" colorscheme apprentice
 " colorscheme one
-" let g:sierra_Sunset = 1
-" let g:sierra_Twilight = 1
 " colorscheme sierra 
 " "---one dark colorscheme---
-" let g:onedark_termcolors=256
+" " https://github.com/joshdick/onedark.vim
 colorscheme onedark
+" let g:onedark_termcolors=256
+" let g:onedark_color_overrides = {
+" \ "black": {"gui": "#2F343F", "cterm": "235", "cterm16": "0" },
+" \ "purple": { "gui": "#C678DF", "cterm": "170", "cterm16": "5" }
+" \}
 "-------vim-colors-pencil---------
 " colorscheme pencil
 "--- code background ---
@@ -34,6 +36,8 @@ colorscheme onedark
 "-------airline theme------
 " let g:airline_theme='silver' 
 " let g:airline_theme='cool' 
+" let g:airline_theme='dracula'
+" let g:airline_theme='jet'
 
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
