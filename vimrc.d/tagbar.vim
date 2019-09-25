@@ -11,4 +11,4 @@ nnoremap <silent> <Leader>b :TagbarToggle<CR>
 
 " keys for tag jump
 " C-] for jump in 
-nnoremap <C-[> <C-t>
+" nnoremap <C-[> <C-t>

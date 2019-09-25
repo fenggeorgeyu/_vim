@@ -76,7 +76,7 @@ noremap <buffer> <silent> $ g$
 " vnoremap <buffer> <silent> $ g$
 
 " alter-L/R move by word
-nnoremap f w
+" nnoremap f w
 
 " super-L/R move to begin end of line
 noremap <D-Left> g0
