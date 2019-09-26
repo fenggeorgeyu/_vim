@@ -71,6 +71,8 @@ Plugin 'honza/vim-snippets'
 " Plugin 'rafaqz/citation.vim'
 " Plugin 'junegunn/fzf.vim'
 ""---buffer explorer---
+"" <leader> be -- normal open tab list
+"" <leader> bv/s -- open horizontally or vertically
 Plugin 'jlanzarotta/bufexplorer'
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
