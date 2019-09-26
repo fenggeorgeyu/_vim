@@ -70,6 +70,8 @@ Plugin 'honza/vim-snippets'
 "--citation--
 " Plugin 'rafaqz/citation.vim'
 " Plugin 'junegunn/fzf.vim'
+""---buffer explorer---
+Plugin 'jlanzarotta/bufexplorer'
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
 filetype plugin indent on    " required
