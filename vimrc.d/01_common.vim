@@ -1,5 +1,6 @@
 " disable mouse model
 if has('mouse')
+ set ttymouse=xterm2 "compatible with tmux
  set mouse=a
 endif
 
@@ -32,8 +33,6 @@ set visualbell
 " this line is also included, vim will neither flash nor beep. If visualbell
 " is unset, this does nothing.
 set t_vb=
-" Enable use of the mouse for all modes
-set mouse=a
 " Set the command window height to 2 lines, to avoid many cases of having to
 " "press <Enter> to continue"
 " set cmdheight=2
