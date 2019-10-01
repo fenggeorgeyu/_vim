@@ -69,3 +69,8 @@ if has('mac')
 elseif has('unix')
 	set clipboard=unnamedplus
 endif
+
+"" auto change cursor in insert/normal mode
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
+
