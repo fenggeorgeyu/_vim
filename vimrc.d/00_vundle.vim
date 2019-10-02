@@ -39,9 +39,9 @@ endif
 "---programming grammar check---
 Plugin 'scrooloose/syntastic'
 "---colorscheme----
-Plugin 'tomasr/molokai' 
+Plugin 'tomasr/molokai'
 " Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
-Plugin 'jnurmine/Zenburn' "zenburn 
+Plugin 'jnurmine/Zenburn' "zenburn
 " Plugin 'romainl/apprentice' "good dark theme
 " Plugin 'rakr/vim-one' "one-light and one-dark theme
 Plugin 'joshdick/onedark.vim'
@@ -74,6 +74,11 @@ Plugin 'honza/vim-snippets'
 "" <leader> be -- normal open tab list
 "" <leader> bv/s -- open horizontally or vertically
 Plugin 'jlanzarotta/bufexplorer'
+""---auto format---
+" Plugin 'Chiel92/vim-autoformat'
+"" ---auto change carret in iterm2 for insert/normal model view
+Plugin 'sjl/vitality.vim'
+
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
 filetype plugin indent on    " required

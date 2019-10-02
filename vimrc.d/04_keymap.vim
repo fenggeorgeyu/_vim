@@ -1,6 +1,6 @@
 " change the mapleader from \ to ;
 let mapleader=";"
-:let maplocalleader = "'"
+let maplocalleader = "'"
 
 " switch windows
 " nnoremap <C-J> <C-W><C-J>
@@ -46,7 +46,7 @@ noremap <leader>k :bp\|bd #<CR>
 
 "disable `c` for cut
 " this will interrupt with comment
-noremap c <Nop>
+" noremap c <Nop>
 " Map Y to act like D and C, i.e. to yank until EOL, rather than act as yy,
 " which is the default
 map Y y$
