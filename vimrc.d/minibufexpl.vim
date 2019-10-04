@@ -9,6 +9,12 @@ let g:miniBufExplUseSingleClick = 1
 "" --- open mini buff expl window even one buffer is open ---
 let g:miniBufExplBuffersNeeded = 1
 
+""---key bindings for controling MBE window---
+""useful when MBE window width changes after open or close new windows
+map <Leader>mbe :MBEOpen<cr>
+map <Leader>mbc :MBEClose<cr>
+map <Leader>mbt :MBEToggle<cr>
+
 " MiniBufExpl Colors
 hi MBENormal               guifg=black guibg=fg		  
 hi MBEChanged              guifg=black guibg=fg		 ctermfg=red
@@ -23,3 +29,7 @@ hi MBEVisibleActiveChanged guifg=black guibg=#87ff87 ctermfg=red 	ctermbg=120
 " let g:did_minibufexplorer_syntax_inits = 1
 
  " hi MBEChanged guibg=darkblue ctermbg=darkblue termbg=white
+
+" --- switch buffers ---
+" noremap <C-TAB>   :MBEbn<CR>
+" noremap <C-S-TAB> :MBEbp<CR>
