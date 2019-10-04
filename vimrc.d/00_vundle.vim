@@ -23,7 +23,11 @@ Plugin 'tpope/vim-commentary'
 Plugin 'fatih/vim-go'
 "---buffer on tab---
 "" use tabline in airline extension
-Plugin 'ap/vim-buftabline'
+" Plugin 'ap/vim-buftabline'
+""---buffer explorer---
+" Plugin 'bufexplorer.zip'
+""---mini buffer explorer---
+Plugin 'fholgado/minibufexpl.vim'
 "---quickfix window control---
 Plugin 'milkypostman/vim-togglelist'
 "---asynchronous quickfix window when run command
@@ -70,9 +74,6 @@ Plugin 'honza/vim-snippets'
 "--citation--
 " Plugin 'rafaqz/citation.vim'
 " Plugin 'junegunn/fzf.vim'
-""---buffer explorer---
-" Plugin 'jlanzarotta/bufexplorer'
-Plugin 'bufexplorer.zip'
 ""---auto format---
 " Plugin 'Chiel92/vim-autoformat'
 "" ---auto change carret in iterm2 for insert/normal model view

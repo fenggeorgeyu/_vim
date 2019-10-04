@@ -56,7 +56,8 @@ set tabstop=4
 set shiftwidth=4
 set foldmethod=expr " fold
 "---split window below---
-set splitbelow
+"" disabled for minibufexpl.vim to split above 
+" set splitbelow
 
 " set to use system clipboard 
 " if g:os == "Darwin" || g:os == "Windows"
