@@ -24,9 +24,9 @@ Plugin 'fatih/vim-go'
 "---buffer on tab---
 "" use tabline in airline extension
 " Plugin 'ap/vim-buftabline'
-""---buffer explorer---
-" Plugin 'bufexplorer.zip'
-""---mini buffer explorer---
+"---buffer explorer---
+Plugin 'bufexplorer.zip'
+""---mini buffer explorer window---
 Plugin 'fholgado/minibufexpl.vim'
 "---quickfix window control---
 Plugin 'milkypostman/vim-togglelist'
