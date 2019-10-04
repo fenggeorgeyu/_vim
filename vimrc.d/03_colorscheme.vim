@@ -1,11 +1,11 @@
 "---spell check error highligthing---
 " SpellBad, SpellCap, SpellRare, SpellLocal
-autocmd ColorScheme * hi clear SpellBad
- \| hi SpellBad gui=undercurl guisp=red guibg=bg
-autocmd ColorScheme * hi clear SpellRare
- \| hi SpellRare gui=undercurl guisp=yellow guibg=bg
-autocmd ColorScheme * hi clear SpellCap
- \| hi SpellCap gui=undercurl guisp=orange guibg=bg
+" autocmd ColorScheme * hi clear SpellBad
+"  \| hi SpellBad gui=undercurl guisp=red guibg=bg
+" autocmd ColorScheme * hi clear SpellRare
+"  \| hi SpellRare gui=undercurl guisp=yellow guibg=bg
+" autocmd ColorScheme * hi clear SpellCap
+"  \| hi SpellCap gui=undercurl guisp=orange guibg=bg
 autocmd ColorScheme * hi clear SpellLocal
  \| hi SpellLocal gui=undercurl guisp=brown guibg=bg
  \| hi SpellBad gui=undercurl,bold guifg=red guibg=bg
@@ -23,27 +23,22 @@ set background=dark
 " "---one dark colorscheme---
 " " https://github.com/joshdick/onedark.vim
 colorscheme onedark
-" colorscheme spacegray
-" colorscheme afterglow
-" let g:spacegray_underline_search = 1
-" let g:spacegray_low_contrast = 1
-" colorscheme forest-night
-" colorscheme jellybeans
 " let g:onedark_termcolors=256
 " let g:onedark_color_overrides = {
 " \ "black": {"gui": "#2F343F", "cterm": "235", "cterm16": "0" },
 " \ "purple": { "gui": "#C678DF", "cterm": "170", "cterm16": "5" }
 " \}
+" colorscheme spacegray
+" let g:spacegray_underline_search = 1
+" let g:spacegray_low_contrast = 1
+" colorscheme afterglow
+" colorscheme forest-night
+" colorscheme jellybeans
 "-------vim-colors-pencil---------
 " colorscheme pencil
 "--- code background ---
 " let g:pencil_neutral_code_bg = 1   " 0=gray (def), 1=normal
 
-"-------airline theme------
-" let g:airline_theme='silver' 
-" let g:airline_theme='cool' 
-" let g:airline_theme='dracula'
-" let g:airline_theme='jet'
 
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
