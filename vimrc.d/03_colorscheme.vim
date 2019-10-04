@@ -13,16 +13,15 @@
 "-------color theme-------
 set background=dark
 " set background=light
-" colorscheme molokai
+colorscheme molokai
 " colorscheme morning
 " colorscheme cobalt2
 " colorscheme darkblue
 " colorscheme zenburn
 " colorscheme one
-" colorscheme sierra 
 " "---one dark colorscheme---
 " " https://github.com/joshdick/onedark.vim
-colorscheme onedark
+" colorscheme onedark
 " let g:onedark_termcolors=256
 " let g:onedark_color_overrides = {
 " \ "black": {"gui": "#2F343F", "cterm": "235", "cterm16": "0" },
