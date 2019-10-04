@@ -5,7 +5,9 @@
 let g:miniBufExplUseSingleClick = 1
 " " status line text
 " let g:miniBufExplStatusLineText = ''
-
+"
+"" --- open mini buff expl window even one buffer is open ---
+let g:miniBufExplBuffersNeeded = 1
 
 " MiniBufExpl Colors
 hi MBENormal               guifg=black guibg=fg		  
