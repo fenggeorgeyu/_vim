@@ -67,7 +67,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 "---align text----
 Plugin 'godlygeek/tabular'
 "---complete closure in programming---
-Plugin 'tpope/vim-endwise'
+" Plugin 'tpope/vim-endwise'
 "---auto close brackets and others ---
 Plugin 'raimondi/delimitmate'
 "--tex---

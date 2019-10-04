@@ -3,9 +3,8 @@ set nospell "disable spell checking by default
 " setlocal spell spelllang=en_us
 set spellfile=~/.vim/spell/en.utf-8.add
 
-autocmd BufRead,BufNewFile *.md setlocal spell
-autocmd FileType gitcommit setlocal spell
-autocmd FileType tex,text setlocal spell
+" autocmd BufRead,BufNewFile *.md setlocal spell
+autocmd FileType tex,text,markdown,gitcommit setlocal spell
 
 "---disable spell check for the following file types
 autocmd FileType bib setlocal nospell "bibtex
