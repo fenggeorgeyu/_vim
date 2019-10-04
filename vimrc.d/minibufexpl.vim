@@ -8,12 +8,12 @@ let g:miniBufExplUseSingleClick = 1
 
 
 " MiniBufExpl Colors
-hi MBENormal               guifg=#808080 guibg=fg  
-hi MBEChanged              guifg=#CD5907 guibg=fg ctermfg=red
-hi MBEVisibleNormal        guifg=#5DC2D6 guibg=fg  
-hi MBEVisibleChanged       guifg=#F1266F guibg=fg ctermfg=red
-hi MBEVisibleActiveNormal  guifg=#A6DB29 guibg=#87ff87 ctermfg=black ctermbg=120
-hi MBEVisibleActiveChanged guifg=#F1266F guibg=#87ff87 ctermfg=red ctermbg=120
+hi MBENormal               guifg=black guibg=fg		  
+hi MBEChanged              guifg=black guibg=fg		 ctermfg=red
+hi MBEVisibleNormal        guifg=black guibg=fg		  
+hi MBEVisibleChanged       guifg=black guibg=fg		 ctermfg=red
+hi MBEVisibleActiveNormal  guifg=black guibg=#87ff87 ctermfg=black 	ctermbg=120
+hi MBEVisibleActiveChanged guifg=black guibg=#87ff87 ctermfg=red 	ctermbg=120
 " hi MBEVisibleActiveNormal  guifg=#A6DB29 guibg=fg ctermfg=black ctermbg=darkgreen
 " hi MBEVisibleActiveChanged guifg=#F1266F guibg=fg ctermfg=red ctermbg=darkgreen
 

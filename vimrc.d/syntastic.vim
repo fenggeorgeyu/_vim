@@ -4,6 +4,7 @@
 " change highlight colors to fit with colortheme
 "highlight SyntasticErrorSign guifg=white guibg=black
 
+let g:syntastic_java_javac_config_file_enabled = 1
 
 let g:syntastic_error_symbol='>>'
 let g:syntastic_warning_symbol='>'
