@@ -5,6 +5,7 @@ set spellfile=~/.vim/spell/en.utf-8.add
 
 autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd FileType gitcommit setlocal spell
+autocmd FileType tex,text setlocal spell
 
 "---disable spell check for the following file types
 autocmd FileType bib setlocal nospell "bibtex

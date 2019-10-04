@@ -49,6 +49,10 @@ Plugin 'jnurmine/Zenburn' "zenburn
 " Plugin 'romainl/apprentice' "good dark theme
 " Plugin 'rakr/vim-one' "one-light and one-dark theme
 Plugin 'joshdick/onedark.vim'
+Plugin 'sainnhe/vim-color-forest-night'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'ajh17/spacegray.vim'
+Plugin 'danilo-augusto/vim-afterglow'
 "---tag list bar---
 Plugin 'majutsushi/tagbar'
 "---Conque DB for gdb---

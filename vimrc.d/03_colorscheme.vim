@@ -1,15 +1,15 @@
 "---spell check error highligthing---
-"SpellBad, SpellCap, SpellRare, SpellLocal
-" autocmd ColorScheme * hi clear SpellBad
-"     \| hi SpellBad gui=undercurl guisp=red guibg=bg
-" autocmd ColorScheme * hi clear SpellRare
-"     \| hi SpellRare gui=undercurl guisp=yellow guibg=bg
-" autocmd ColorScheme * hi clear SpellCap
-"     \| hi SpellCap gui=undercurl guisp=orange guibg=bg
-" autocmd ColorScheme * hi clear SpellLocal
-"     \| hi SpellLocal gui=undercurl guisp=brown guibg=bg
-"	  \| hi SpellBad gui=underline,bold guifg=white guibg=black
-"	  \| hi SpellBad cterm=underline,bold ctermfg=white ctermbg=black
+" SpellBad, SpellCap, SpellRare, SpellLocal
+ " autocmd ColorScheme * hi clear SpellBad
+ "     \| hi SpellBad gui=undercurl guisp=red guibg=bg
+ " autocmd ColorScheme * hi clear SpellRare
+ "     \| hi SpellRare gui=undercurl guisp=yellow guibg=bg
+ " autocmd ColorScheme * hi clear SpellCap
+ "     \| hi SpellCap gui=undercurl guisp=orange guibg=bg
+ " autocmd ColorScheme * hi clear SpellLocal
+ "     \| hi SpellLocal gui=undercurl guisp=brown guibg=bg
+	  " \| hi SpellBad gui=underline,bold guifg=red guibg=bg
+	  " \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=bg
 "-------color theme-------
 set background=dark
 " set background=light
@@ -18,10 +18,15 @@ set background=dark
 " colorscheme cobalt2
 " colorscheme darkblue
 " colorscheme zenburn
-" colorscheme one
 " "---one dark colorscheme---
 " " https://github.com/joshdick/onedark.vim
 colorscheme onedark
+" colorscheme spacegray
+" colorscheme afterglow
+" let g:spacegray_underline_search = 1
+" let g:spacegray_low_contrast = 1
+" colorscheme forest-night
+" colorscheme jellybeans
 " let g:onedark_termcolors=256
 " let g:onedark_color_overrides = {
 " \ "black": {"gui": "#2F343F", "cterm": "235", "cterm16": "0" },
