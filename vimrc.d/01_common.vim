@@ -1,6 +1,8 @@
 " disable mouse model
 if has('mouse')
- set ttymouse=xterm2 "compatible with tmux
+	if !has('nvim')
+		set ttymouse=xterm2 "compatible with tmux
+	endif
  set mouse=a
 endif
 

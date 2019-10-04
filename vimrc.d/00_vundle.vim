@@ -15,7 +15,7 @@ Plugin 'JamshedVesuna/vim-markdown-preview'
 "----markdown--end--
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'enricobacis/vim-airline-clock'
+" Plugin 'enricobacis/vim-airline-clock'
 Plugin 'reedes/vim-lexical'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-commentary'
