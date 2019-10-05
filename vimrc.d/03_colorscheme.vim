@@ -22,7 +22,7 @@ set background=dark
 " colorscheme zenburn
 " "---one dark colorscheme---
 " " https://github.com/joshdick/onedark.vim
-colorscheme onedark
+" colorscheme onedark
 " let g:onedark_termcolors=256
 " let g:onedark_color_overrides = {
 " \ "black": {"gui": "#2F343F", "cterm": "235", "cterm16": "0" },
@@ -33,7 +33,7 @@ colorscheme onedark
 " let g:spacegray_low_contrast = 1
 " colorscheme afterglow
 " colorscheme forest-night
-" colorscheme jellybeans
+colorscheme jellybeans
 "-------vim-colors-pencil---------
 " colorscheme pencil
 "--- code background ---
