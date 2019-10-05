@@ -21,12 +21,17 @@ let g:syntastic_auto_loc_list = 0
 let g:syntastic_loc_list_height = 5
 
 "set c++ complier to clang++ which is usually better than gcc
+let g:syntastic_cpp_check_header = 1
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 " if need to use gcc as compiler
 " let g:syntastic_cpp_checkers = ['gcc']
 " let g:syntastic_cpp_compiler = 'gcc'
 " let g:syntastic_cpp_compiler_options = '-std=c++11'
+
+"---------------c---------------
+" let g:syntastic_c_include_dirs = [ '../include', 'include' ]
+
 
 function! ToggleErrors()
     let old_last_winnr = winnr('$')
