@@ -89,15 +89,21 @@ set backspace=indent,eol,start
 " In iTerm2, the option keys is mapped to +Esc, the following key map will
 " work as Alt+Backspace usually does
 inoremap <Esc><BS> <C-w>
-" move with alt key
+" ----------move with alt key----------
 " check item2 profile key setting to see which key is sending when pressing
 " or use `sed -n l` in terminal to and press keys to see
 " alt+<- and alt+->
 inoremap <Esc>b <C-Left>
 inoremap <Esc>f <C-Right>
-" the following currently not work for D-> and D<-
-" inoremap <Esc>[D eol
-" inoremap <Esc>[C start
+" D-> and D<- work as End and Home key
+" this needs to add in iterm profile key: 
+" FOR  		   ACTION           SEND
+" command <-  "SEND HEX CODE"   0x01 
+" command ->  "SEND HEX CODE"   0x05
+" alt <- 	  "SEND ESC SEQ" 	b
+" alt -> 	  "SEND ESC SEQ"    f
+inoremap <C-e> <C-o>$
+inoremap <C-a> <C-o>0
 
 
 " imap <C-BS> <C-W>
