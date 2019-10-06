@@ -40,10 +40,6 @@ set t_vb=
 " set cmdheight=2
 " Display line numbers on the left
 set number
-" Use <F2> to toggle between 'paste' and 'nopaste'
-nnoremap <F2> :set invpaste paste?<CR>
-set pastetoggle=<F2>
-set showmode
  
 "softwrap setting
 set wrap linebreak nolist

@@ -114,4 +114,8 @@ inoremap <C-a> <C-o>0
 "
 
 
+" Use <F2> to toggle between 'paste' and 'nopaste'
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
 
