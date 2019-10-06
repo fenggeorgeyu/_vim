@@ -11,15 +11,22 @@ let g:vim_markdown_fenced_languages = ['html', 'python', 'bash=shell']
 
 """ TOML Front Matter
 " let g:vim_markdown_toml_frontmatter = 1
-" let g:vim_markdown_math = 1
+
+
+""----------vim-markdownby TIM POPE----------
+""https://vimawesome.com/plugin/vim-markdown-enchanted
+"let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+"let g:markdown_syntax_conceal = 0
+
 
 ""---markdown preview---
 "URL: https://github.com/JamshedVesuna/vim-markdown-preview
-let vim_markdown_preview_github = 1 "need to install grip `brew install grip` before use it
-" let vim_markdown_preview_toggle=2
-" let vim_markdown_preview_pandoc=1 "need to install pandoc
+" let vim_markdown_preview_github = 1 "need to install grip `brew install grip` before use it
+" To display images automatically on buffer write.
+let vim_markdown_preview_toggle=1 "render html after pressing shortcut key
+let vim_markdown_preview_pandoc=1 "need to install pandoc
+let vim_markdown_preview_temp_file=1 "delete tmp html file after randering
 let vim_markdown_preview_browser='Google Chrome'
-" let vim_markdown_preview_hotkey='<C-P>'
 let vim_markdown_preview_hotkey='<C-m>' "use ctrl+m to avoid conflict with ctrl+p in `ctrlp` plugin
 
 

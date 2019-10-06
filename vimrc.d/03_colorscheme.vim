@@ -6,10 +6,10 @@
 "  \| hi SpellRare gui=undercurl guisp=yellow guibg=bg
 " autocmd ColorScheme * hi clear SpellCap
 "  \| hi SpellCap gui=undercurl guisp=orange guibg=bg
-autocmd ColorScheme * hi clear SpellLocal
- \| hi SpellLocal gui=undercurl guisp=brown guibg=bg
- \| hi SpellBad gui=undercurl,bold guifg=red guibg=bg
- \| hi SpellBad cterm=undercurl,bold ctermfg=red ctermbg=bg
+" autocmd ColorScheme * hi clear SpellLocal
+"  \| hi SpellLocal gui=undercurl guisp=brown guibg=bg
+"  \| hi SpellBad gui=undercurl,bold guifg=red guibg=bg
+"  \| hi SpellBad cterm=undercurl,bold ctermfg=red ctermbg=bg
  " \| hi SpellBad gui=underline,bold guifg=red guibg=bg
  " \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=bg
 "-------color theme-------
@@ -65,6 +65,7 @@ if has("gui_macvim")
 	" colorscheme darkblue
 	" colorscheme pencil
  	" colorscheme zenburn
+	colorscheme onedark
 	" let g:airline_theme='aurora' 
 	" let g:airline_theme='silver' 
 endif

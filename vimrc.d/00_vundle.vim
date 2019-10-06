@@ -11,7 +11,13 @@ Plugin 'ascenator/L9', {'name': 'newL9'}
 " plugin for Git
 Plugin 'tpope/vim-fugitive'
 "---markdown--------
-Plugin 'JamshedVesuna/vim-markdown-preview'
+"required by plasticboy/vim-markdown
+Plugin 'godlygeek/tabular' 
+Plugin 'plasticboy/vim-markdown'
+" Plugin 'tpope/vim-markdown'
+" Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'fenggeorgeyu/vim-markdown-preview'
+" Plugin 'suan/vim-instant-markdown', {'rtp': 'after'}
 "----markdown--end--
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -64,8 +70,6 @@ Plugin 'yggdroot/indentline'
 Plugin 'elzr/vim-json'
 "----file plugin---
 Plugin 'ctrlpvim/ctrlp.vim'
-"---align text----
-Plugin 'godlygeek/tabular'
 "---complete closure in programming---
 " Plugin 'tpope/vim-endwise'
 "---auto close brackets and others ---
