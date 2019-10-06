@@ -2,6 +2,7 @@
 "https://github.com/plasticboy/vim-markdown/blob/master/doc/vim-markdown.txt
 set conceallevel=0
 let g:vim_markdown_conceal = 0 "display all symbols in markdown
+let g:vim_markdown_conceal_code_blocks = 0 "disable concealing in ` ` 
 let g:tex_conceal = ""
 let g:vim_markdown_math = 1
 let g:vim_markdown_folding_disabled = 1

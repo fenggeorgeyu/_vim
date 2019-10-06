@@ -1,8 +1,7 @@
 # Sat Oct  5 21:52:22 EDT 2019
-
 colorscheme: add jellybean and others
 markdown preview: use self developed plugin in github
-
+add alt+backspace/<-/-> key
 
 # 20190914
 
