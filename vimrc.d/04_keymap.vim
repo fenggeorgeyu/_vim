@@ -91,9 +91,13 @@ set backspace=indent,eol,start
 inoremap <Esc><BS> <C-w>
 " move with alt key
 " check item2 profile key setting to see which key is sending when pressing
+" or use `sed -n l` in terminal to and press keys to see
 " alt+<- and alt+->
 inoremap <Esc>b <C-Left>
 inoremap <Esc>f <C-Right>
+" the following currently not work for D-> and D<-
+" inoremap <Esc>[D eol
+" inoremap <Esc>[C start
 
 
 " imap <C-BS> <C-W>
