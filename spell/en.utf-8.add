@@ -50,3 +50,5 @@ Params
 localhost
 pgsql
 postgreSQL
+colorscheme
+github
