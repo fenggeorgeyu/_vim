@@ -15,3 +15,5 @@ nnoremap <silent> <Leader>b :TagbarToggle<CR>
 " do not map <c-[> as following since it will make mouse not working in
 " terminal
 " nnoremap <C-[> <C-t>
+""---fix jumping to the right tag when multiple tags present
+nnoremap <C-]> g<C-]>
