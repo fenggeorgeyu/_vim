@@ -59,7 +59,7 @@ au ColorScheme * hi ErrorMsg NONE
 " set cursorline "show current line
 " set cursorcolumn "show current column
 "---colorcheme for gui----
-if has("gui_macvim")
+if has("gui_running")
 	" set background=light
 	" colorscheme macvim
 	" colorscheme darkblue
