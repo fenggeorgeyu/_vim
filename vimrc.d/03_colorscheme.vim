@@ -6,12 +6,18 @@
 "  \| hi SpellRare gui=undercurl guisp=yellow guibg=bg
 " autocmd ColorScheme * hi clear SpellCap
 "  \| hi SpellCap gui=undercurl guisp=orange guibg=bg
+" autocmd ColorScheme * hi clear SpellLocal
+"  \| hi SpellLocal gui=undercurl guisp=brown guibg=bg
+"  \| hi SpellBad gui=undercurl,bold guifg=red guibg=bg
+"  \| hi SpellBad cterm=undercurl,bold ctermfg=red ctermbg=bg
+"  \| hi SpellBad gui=underline,bold guifg=red guibg=bg
+"  \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=bg
 autocmd ColorScheme * hi clear SpellLocal
- \| hi SpellLocal gui=undercurl guisp=brown guibg=bg
- \| hi SpellBad gui=undercurl,bold guifg=red guibg=bg
- \| hi SpellBad cterm=undercurl,bold ctermfg=red ctermbg=bg
- \| hi SpellBad gui=underline,bold guifg=red guibg=bg
- \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=bg
+ \| hi SpellLocal gui=undercurl guisp=brown 
+ \| hi SpellBad gui=undercurl,bold guifg=red 
+ \| hi SpellBad cterm=undercurl,bold ctermfg=red 
+ \| hi SpellBad gui=underline,bold guifg=red 
+ \| hi SpellBad cterm=underline,bold ctermfg=red 
 "-------color theme-------
 set background=dark
 " set background=light
