@@ -37,9 +37,9 @@ Plugin 'fholgado/minibufexpl.vim'
 "---quickfix window control---
 Plugin 'milkypostman/vim-togglelist'
 "---asynchronous quickfix window when run command
-Plugin 'skywind3000/asyncrun.vim'
+" Plugin 'skywind3000/asyncrun.vim'
 "---conque shell term----
-Plugin 'rosenfeld/conque-term'
+" Plugin 'rosenfeld/conque-term'
 "---autocomplete
 " Plugin 'shougo/neocomplete.vim'
 if v:version > 800 "only for vim > 8.0
@@ -51,14 +51,14 @@ Plugin 'scrooloose/syntastic'
 "---colorscheme----
 Plugin 'tomasr/molokai'
 " Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
-Plugin 'jnurmine/Zenburn' "zenburn
+" Plugin 'jnurmine/Zenburn' "zenburn
 " Plugin 'romainl/apprentice' "good dark theme
 " Plugin 'rakr/vim-one' "one-light and one-dark theme
 Plugin 'joshdick/onedark.vim'
-Plugin 'sainnhe/vim-color-forest-night'
+" Plugin 'sainnhe/vim-color-forest-night'
 Plugin 'nanotech/jellybeans.vim'
-Plugin 'ajh17/spacegray.vim'
-Plugin 'danilo-augusto/vim-afterglow'
+" Plugin 'ajh17/spacegray.vim'
+" Plugin 'danilo-augusto/vim-afterglow'
 "---tag list bar---
 Plugin 'majutsushi/tagbar'
 "---Conque DB for gdb---
@@ -85,7 +85,7 @@ Plugin 'honza/vim-snippets'
 ""---auto format---
 " Plugin 'Chiel92/vim-autoformat'
 "" ---auto change carret in iterm2 for insert/normal model view
-Plugin 'sjl/vitality.vim'
+" Plugin 'sjl/vitality.vim'
 
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
