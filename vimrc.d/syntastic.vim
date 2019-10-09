@@ -3,19 +3,27 @@
 
 " change highlight colors to fit with colortheme
 "highlight SyntasticErrorSign guifg=white guibg=black
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 let g:syntastic_java_javac_config_file_enabled = 1
 
 let g:syntastic_error_symbol='>>'
 let g:syntastic_warning_symbol='>'
-let g:syntastic_check_on_open=1
-let g:syntastic_check_on_wq=0
+" let g:syntastic_check_on_open=1
+" let g:syntastic_check_on_wq=0
 let g:syntastic_enable_highlighting=1
 let g:syntastic_python_checkers=['pyflakes'] "use pyflakes faster than pylink
 let g:syntastic_javascript_checkers = ['jsl', 'jshint']
 let g:syntastic_html_checkers=['tidy', 'jshint']
 
 " to see error location list
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
 let g:syntastic_always_populate_loc_list = 0
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_loc_list_height = 5
@@ -32,7 +40,7 @@ let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 "---------------c---------------
 " let g:syntastic_c_include_dirs = [ '../include', 'include' ]
 
-
+"--------show error window------
 function! ToggleErrors()
     let old_last_winnr = winnr('$')
     lclose
