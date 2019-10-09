@@ -28,6 +28,7 @@ Support C-family languages, Go, and Java:
 
 ## Other Issues
 
+* spell dictionary is in `spell` folder. It's ignored in git for public sharing.
 * For `golang` the `vim-go` requires newer version of vim. The warning is disabled in `vimrc`.
 * Black screen on Full Screen? [link](https://github.com/macvim-dev/macvim/wiki/FAQ#black-screen-on-full-screen)
 
