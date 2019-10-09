@@ -4,22 +4,21 @@ set background=dark
 
 "---spell check error highligthing---
 "---SpellBad, SpellCap, SpellRare, SpellLocal---
-
 autocmd ColorScheme * hi clear SpellBad
- \| hi SpellBad gui=undercurl guisp=red guibg=bg
- \| hi SpellBad cterm=underline ctermfg=red ctermbg=bg
+ \| hi SpellBad gui=undercurl guisp=red guibg=NONE
+ \| hi SpellBad cterm=underline ctermfg=red ctermbg=NONE
 autocmd ColorScheme * hi clear SpellRare
- \| hi SpellRare gui=undercurl guisp=yellow guibg=bg
- \| hi SpellRare cterm=underline ctermfg=yellow ctermbg=bg
+ \| hi SpellRare gui=undercurl guisp=yellow guibg=NONE
+ \| hi SpellRare cterm=underline ctermfg=yellow ctermbg=NONE
 autocmd ColorScheme * hi clear SpellCap
- \| hi SpellCap gui=undercurl guisp=orange guibg=bg
- \| hi SpellCap cterm=underline ctermfg=brown ctermbg=bg
+ \| hi SpellCap gui=undercurl guisp=orange guibg=NONE
+ \| hi SpellCap cterm=underline ctermfg=brown ctermbg=NONE
 autocmd ColorScheme * hi clear SpellLocal
- \| hi SpellLocal gui=undercurl guisp=brown guibg=bg
- " \| hi SpellBad gui=undercurl,bold guifg=red guibg=bg
- " \| hi SpellBad cterm=undercurl,bold ctermfg=red ctermbg=bg
- \| hi SpellBad gui=undercurl guibg=bg
- \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=bg
+ \| hi SpellLocal gui=undercurl guisp=brown guibg=NONE
+ " \| hi SpellBad gui=undercurl,bold guifg=red guibg=NONE
+ " \| hi SpellBad cterm=undercurl,bold ctermfg=red ctermbg=NONE
+ \| hi SpellBad gui=undercurl guibg=NONE
+ \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=NONE
 
 "-------color theme-------
 " colorscheme molokai
