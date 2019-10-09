@@ -6,6 +6,8 @@
 bundle/
 !bundle/Vundle.vim/
 
-/* spell/ */
+spell/
 
 *.html
+
+
