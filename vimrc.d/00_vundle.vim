@@ -47,7 +47,7 @@ if v:version > 800 "only for vim > 8.0
 	Plugin 'fenggeorgeyu/youcompleteme' " too large approximiately 200MB ..
 endif
 "---programming grammar check---
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic' "slow
 "---colorscheme----
 Plugin 'tomasr/molokai'
 " Plugin 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
@@ -63,7 +63,7 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'majutsushi/tagbar'
 "---Conque DB for gdb---
 " Plugin 'Conque-GDB'
-Plugin 'cyrus-and/gdb-dashboard'
+" Plugin 'cyrus-and/gdb-dashboard'
 "---show indent line---
 Plugin 'yggdroot/indentline'
 "---json----
@@ -86,7 +86,7 @@ Plugin 'honza/vim-snippets'
 " Plugin 'Chiel92/vim-autoformat'
 "" --auto change carret in iterm2 for insert/normal model view
 ""this might make vim slow
-" Plugin 'sjl/vitality.vim' 
+Plugin 'sjl/vitality.vim' 
 
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required

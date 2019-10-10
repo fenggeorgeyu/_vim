@@ -57,9 +57,9 @@ colorscheme jellybeans
 " hi foldcolumn guibg=bg
 " hi VertSplit guibg=bg guifg=gray
 " hi VertSplit guibg=bg
-"---turn off error highlight---
-au ColorScheme * hi Error NONE
-au ColorScheme * hi ErrorMsg NONE
+""---turn off error highlight---
+"au ColorScheme * hi Error NONE
+"au ColorScheme * hi ErrorMsg NONE
 
 "---highlight current line and column
 " set cursorline "show current line

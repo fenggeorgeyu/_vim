@@ -71,4 +71,8 @@ endif
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
 
+"---try to increase vim speed---
+set timeoutlen=1000
+set ttimeoutlen=0
+
 
