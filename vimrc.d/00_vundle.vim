@@ -86,7 +86,7 @@ Plugin 'honza/vim-snippets'
 " Plugin 'Chiel92/vim-autoformat'
 "" --auto change carret in iterm2 for insert/normal model view
 ""this might make vim slow
-Plugin 'sjl/vitality.vim' 
+" Plugin 'sjl/vitality.vim' 
 
 "--------All of your Vundle Plugins must be added before the following line---------
 call vundle#end()            " required
