@@ -13,7 +13,7 @@ call plug#begin('~/.vim/plugged')
 " different version somewhere else.
 Plug 'ascenator/L9', {'name': 'newL9'}
 " plugin for Git
-Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-fugitive'
 "---markdown--------
 "required by plasticboy/vim-markdown
 Plug 'godlygeek/tabular' 
@@ -47,9 +47,12 @@ Plug 'skywind3000/asyncrun.vim'
 "---autocomplete
 " Plug 'shougo/neocomplete.vim'
 if v:version > 800 "only for vim > 8.0
-	" Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
-	Plug 'fenggeorgeyu/youcompleteme' " too large approximiately 200MB ..
+ Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
+ """Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
+ """encoding names
 endif
+"---java complete---
+" Plug 'artur-shaik/vim-javacomplete2' "slow
 "---programming grammar check---
 " Plug 'scrooloose/syntastic' "slow
 " Plug 'w0rp/ale' "configured not working for java now

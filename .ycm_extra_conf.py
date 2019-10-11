@@ -31,7 +31,9 @@ common = ['-std=c++11',
           '-I/usr/include/x86_64-linux-gnu',
           '-I/usr/bin/../lib/gcc/x86_64-linux-gnu/4.9/include',
           '-I/usr/include',
-          '-I/usr/include/c++/4.9']
+          '-I/usr/include/c++/4.9',
+          '-I./src',
+          '-I./include']
 
 
 SOURCE_EXTENSIONS = [
@@ -62,6 +64,8 @@ HEADER_DIRECTORIES = [
         '/usr/include',
         '/usr/local/include',
         '/usr/local/cuda/*/include',
+        './src',
+        './include',
         '-isystem'
         ]
 
