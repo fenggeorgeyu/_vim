@@ -66,6 +66,8 @@ Plug 'nanotech/jellybeans.vim'
 " Plug 'danilo-augusto/vim-afterglow'
 "---tag list bar---
 Plug 'majutsushi/tagbar'
+"---auto generate tags--
+Plug 'ludovicchabant/vim-gutentags'
 "---Conque DB for gdb---
 " Plug 'Conque-GDB'
 " Plug 'cyrus-and/gdb-dashboard'
@@ -91,7 +93,7 @@ Plug 'honza/vim-snippets'
 " Plug 'Chiel92/vim-autoformat'
 "" --auto change carret in iterm2 for insert/normal model view
 ""this might make vim slow
-Plug 'sjl/vitality.vim' 
+" Plug 'sjl/vitality.vim' 
 
 ""--------All of your Vundle Plugins must be added before the following line---------
 "call vundle#end()            " required
