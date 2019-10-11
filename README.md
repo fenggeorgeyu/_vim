@@ -15,7 +15,7 @@ git clone --recursive https://github.com/fenggeorgeyu/_vim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
-Second, start vim, type `:` and type `PluginInstall` to install plugins. Restart vim and start using it.
+Second, start vim, type `:` and type `PlugInstall` to install plugins. Restart vim and start using it.
 
 ## Install `YouCompleteMe`
 
