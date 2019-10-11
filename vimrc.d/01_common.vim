@@ -40,8 +40,6 @@ set t_vb=
 " set cmdheight=2
 " Display line numbers on the left
 set number
-" Use <F11> to toggle between 'paste' and 'nopaste'
-set pastetoggle=<F11>
  
 "softwrap setting
 set wrap linebreak nolist
@@ -54,18 +52,15 @@ set autoindent
 set noexpandtab
 set tabstop=4
 set shiftwidth=4
-set foldmethod=expr " fold
+" set foldmethod=expr " fold
+set foldmethod=syntax
+set foldlevel=100
+" folding key zc; zo; zR
 "---split window below---
 "" disabled for minibufexpl.vim to split above 
 " set splitbelow
 
-" set to use system clipboard 
-" if g:os == "Darwin" || g:os == "Windows"
-" 	set clipboard=unname
-" elseif g:os == "Linux"
-" 	set clipboard=unnamedplus
-" endif
-
+"--- set to use system clipboard ---
 if has('mac') 
 	set clipboard=unnamed
 elseif has('unix')
@@ -75,4 +70,9 @@ endif
 "" auto change cursor in insert/normal mode
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
+
+"---try to increase vim speed---
+set timeoutlen=1000
+set ttimeoutlen=0
+
 

@@ -1,11 +1,16 @@
 
 .netrwhist
-
+.Rhistory
 .DS_Store
 
 bundle/
 !bundle/Vundle.vim/
 
-/* spell/ */
+plugged/
+
+spell/
+spell
 
 *.html
+
+

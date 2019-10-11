@@ -56,10 +56,10 @@ nnoremap j gj
 nnoremap k gk
 vnoremap j gj
 vnoremap k gk
-nnoremap <Down> gj
-nnoremap <Up> gk
-vnoremap <Down> gj
-vnoremap <Up> gk
+" nnoremap <Down> gj
+" nnoremap <Up> gk
+" vnoremap <Down> gj
+" vnoremap <Up> gk
 " inoremap <Down> <Esc>gja
 " inoremap <Up> <Esc>gka
 
@@ -85,6 +85,26 @@ noremap <D-Right> g$
 "---backspace---
 " backspace in iterm
 set backspace=indent,eol,start
+"" https://stackoverflow.com/questions/11659618/altbackspace-to-delete-words-in-vim/11665408#11665408
+" In iTerm2, the option keys is mapped to +Esc, the following key map will
+" work as Alt+Backspace usually does
+inoremap <Esc><BS> <C-w>
+" ----------move with alt key----------
+" check item2 profile key setting to see which key is sending when pressing
+" or use `sed -n l` in terminal to and press keys to see
+" alt+<- and alt+->
+inoremap <Esc>b <C-Left>
+inoremap <Esc>f <C-Right>
+" D-> and D<- work as End and Home key
+" this needs to add in iterm profile key: 
+" FOR  		   ACTION           SEND
+" command <-  "SEND HEX CODE"   0x01 
+" command ->  "SEND HEX CODE"   0x05
+" alt <- 	  "SEND ESC SEQ" 	b
+" alt -> 	  "SEND ESC SEQ"    f
+inoremap <C-e> <C-o>$
+inoremap <C-a> <C-o>0
+
 
 " imap <C-BS> <C-W>
 " noremap! <C-BS> <C-w>
@@ -94,4 +114,8 @@ set backspace=indent,eol,start
 "
 
 
+" Use <F2> to toggle between 'paste' and 'nopaste'
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
 
