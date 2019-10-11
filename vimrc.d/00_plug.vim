@@ -41,7 +41,7 @@ Plug 'fholgado/minibufexpl.vim'
 "---quickfix window control---
 Plug 'milkypostman/vim-togglelist'
 "---asynchronous quickfix window when run command
-" Plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/asyncrun.vim'
 "---conque shell term----
 " Plug 'rosenfeld/conque-term'
 "---autocomplete
@@ -52,6 +52,7 @@ if v:version > 800 "only for vim > 8.0
 endif
 "---programming grammar check---
 " Plug 'scrooloose/syntastic' "slow
+" Plug 'w0rp/ale' "configured not working for java now
 "---colorscheme----
 Plug 'tomasr/molokai'
 " Plug 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
@@ -90,7 +91,7 @@ Plug 'honza/vim-snippets'
 " Plug 'Chiel92/vim-autoformat'
 "" --auto change carret in iterm2 for insert/normal model view
 ""this might make vim slow
-" Plug 'sjl/vitality.vim' 
+Plug 'sjl/vitality.vim' 
 
 ""--------All of your Vundle Plugins must be added before the following line---------
 "call vundle#end()            " required

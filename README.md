@@ -21,11 +21,12 @@ Second, start vim, type `:` and type `PluginInstall` to install plugins. Restart
 
 Support C-family languages, Go, and Java:
 
-	brew install cmake go
-	cd ~/.vim/plugged/youcompleteme
-	git submodule update --init --recursive
-	python3 ./install.py --clang-completer --go-completer --java-completer 
-
+```bash
+brew install cmake go
+cd ~/.vim/plugged/youcompleteme
+git submodule update --init --recursive
+python3 ./install.py --clang-completer --go-completer --java-completer 
+```
 
 ## Other Issues
 
@@ -33,9 +34,9 @@ Support C-family languages, Go, and Java:
 * For `golang` the `vim-go` requires newer version of vim. The warning is disabled in `vimrc`.
 * Black screen on Full Screen? [link](https://github.com/macvim-dev/macvim/wiki/FAQ#black-screen-on-full-screen)
 
-	Execute the following command in Terminal.app if you're using Use Core Text renderer and Prefer native full-screen support in Preferences > Advanced.
+Execute the following command in Terminal.app if you're using Use Core Text renderer and Prefer native full-screen support in Preferences > Advanced.
 
-		defaults write org.vim.MacVim MMUseCGLayerAlways -bool YES
+	defaults write org.vim.MacVim MMUseCGLayerAlways -bool YES
 
 ## Screenshot
 
