@@ -13,7 +13,6 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 
 let g:ycm_filetype_blacklist = {
 	\ 'vimshell': 1, 
-	\ 'cuda': 0,
 	\ 'tagbar': 1,
 	\ 'notes': 1,
 	\ 'markdown': 1,
