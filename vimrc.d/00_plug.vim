@@ -47,8 +47,8 @@ Plug 'skywind3000/asyncrun.vim'
 "---autocomplete
 " Plug 'shougo/neocomplete.vim'
 if v:version > 800 "only for vim > 8.0
- Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
- """Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
+ "Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
+ Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
  """encoding names
 endif
 "---java complete---
