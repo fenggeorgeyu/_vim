@@ -13,7 +13,7 @@ call plug#begin('~/.vim/plugged')
 " different version somewhere else.
 Plug 'ascenator/L9', {'name': 'newL9'}
 " plugin for Git
-Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-fugitive'
 "---markdown--------
 "required by plasticboy/vim-markdown
 Plug 'godlygeek/tabular' 
@@ -30,7 +30,9 @@ Plug 'reedes/vim-lexical'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
 "---golang----
-Plug 'fatih/vim-go'
+if v:version > 800 "only for vim > 8.0
+	Plug 'fatih/vim-go'
+endif
 "---buffer on tab---
 "" use tabline in airline extension
 " Plug 'ap/vim-buftabline'
@@ -47,9 +49,12 @@ Plug 'skywind3000/asyncrun.vim'
 "---autocomplete
 " Plug 'shougo/neocomplete.vim'
 if v:version > 800 "only for vim > 8.0
-	" Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
-	Plug 'fenggeorgeyu/youcompleteme' " too large approximiately 200MB ..
+ "Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
+ Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
+ """encoding names
 endif
+"---java complete---
+" Plug 'artur-shaik/vim-javacomplete2' "slow
 "---programming grammar check---
 " Plug 'scrooloose/syntastic' "slow
 " Plug 'w0rp/ale' "configured not working for java now
@@ -66,6 +71,8 @@ Plug 'nanotech/jellybeans.vim'
 " Plug 'danilo-augusto/vim-afterglow'
 "---tag list bar---
 Plug 'majutsushi/tagbar'
+"---auto generate tags--
+Plug 'ludovicchabant/vim-gutentags'
 "---Conque DB for gdb---
 " Plug 'Conque-GDB'
 " Plug 'cyrus-and/gdb-dashboard'
@@ -91,7 +98,7 @@ Plug 'honza/vim-snippets'
 " Plug 'Chiel92/vim-autoformat'
 "" --auto change carret in iterm2 for insert/normal model view
 ""this might make vim slow
-Plug 'sjl/vitality.vim' 
+" Plug 'sjl/vitality.vim' 
 
 ""--------All of your Vundle Plugins must be added before the following line---------
 "call vundle#end()            " required
