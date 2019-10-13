@@ -30,7 +30,9 @@ Plug 'reedes/vim-lexical'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
 "---golang----
-Plug 'fatih/vim-go'
+if v:version > 800 "only for vim > 8.0
+	Plug 'fatih/vim-go'
+endif
 "---buffer on tab---
 "" use tabline in airline extension
 " Plug 'ap/vim-buftabline'
