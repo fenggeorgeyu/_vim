@@ -29,10 +29,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'reedes/vim-lexical'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
-"---golang----
-if v:version > 800 "only for vim > 8.0
-	Plug 'fatih/vim-go'
-endif
 "---buffer on tab---
 "" use tabline in airline extension
 " Plug 'ap/vim-buftabline'
@@ -53,11 +49,15 @@ if v:version > 800 "only for vim > 8.0
  Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
  """encoding names
 endif
-"---java complete---
-" Plug 'artur-shaik/vim-javacomplete2' "slow
 "---programming grammar check---
 " Plug 'scrooloose/syntastic' "slow
 " Plug 'w0rp/ale' "configured not working for java now
+"---java complete---
+" Plug 'artur-shaik/vim-javacomplete2' "slow
+"---golang----
+if v:version > 800 "only for vim > 8.0
+	Plug 'fatih/vim-go'
+endif
 "---colorscheme----
 Plug 'tomasr/molokai'
 " Plug 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
@@ -99,11 +99,13 @@ Plug 'honza/vim-snippets'
 "" --auto change carret in iterm2 for insert/normal model view
 ""this might make vim slow
 " Plug 'sjl/vitality.vim' 
-
-""--------All of your Vundle Plugins must be added before the following line---------
-"call vundle#end()            " required
-"filetype plugin indent on    " required
-
+"---google formater---
+Plug 'google/vim-maktaba'
+Plug 'google/vim-codefmt'
+" Also add Glaive, which is used to configure codefmt's maktaba flags. See
+" `:help :Glaive` for usage.
+Plug 'google/vim-glaive'
+"-----------end of plug-------------------
 " Initialize plugin system
 call plug#end()
 

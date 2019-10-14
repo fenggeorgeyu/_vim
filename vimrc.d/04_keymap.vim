@@ -15,9 +15,9 @@ nnoremap <C-H> <C-W><C-H>
 "---page up/down----
 " C-Up/Down: page up/down
 " C-E/D: page up/down
-map <silent> <C-Up> <C-U>
-map <silent> <C-Down> <C-D>
-map <silent> <C-E> <C-U>
+" noremap <silent> <C-Up> <C-U>
+" noremap <silent> <C-Down> <C-D>
+noremap <silent> <C-E> <C-U>
 
 
 "change tab switch
@@ -56,20 +56,15 @@ nnoremap j gj
 nnoremap k gk
 vnoremap j gj
 vnoremap k gk
-" nnoremap <Down> gj
-" nnoremap <Up> gk
-" vnoremap <Down> gj
-" vnoremap <Up> gk
-" inoremap <Down> <Esc>gja
-" inoremap <Up> <Esc>gka
-
-" nnoremap <M-j> j
-" nnoremap <M-k> k
-" vnoremap <M-j> j
-" vnoremap <M-k> k
-
+nnoremap <Down> gj
+nnoremap <Up> gk
+vnoremap <Down> gj
+vnoremap <Up> gk
 " inoremap <Down> <C-o>gj
-" inoremap <Up> <C-o>gk
+" inoremap <Up> <C-o>gk   
+inoremap <buffer> <Up> <C-O>gk
+inoremap <buffer> <Down> <C-O>gj
+
 noremap <buffer> <silent> 0 g0
 noremap <buffer> <silent> $ g$
 " vnoremap <buffer> <silent> 0 g0
