@@ -1,4 +1,6 @@
 
+set statusline+=%{gutentags#statusline()}
+let g:gutentags_ctags_exclude = ["*.min.js", "*.min.css", "build", "vendor", ".git", "node_modules", "*.vim/bundle/*", "*.vim/plugged/*"]
 let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']
 
 let g:gutentags_ctags_tagfile = '.tags'
@@ -16,3 +18,4 @@ let g:gutentags_ctags_extra_args += ['--c-kinds=+px']
 if !isdirectory(s:vim_tags)
    silent! call mkdir(s:vim_tags, 'p')
 endif
+

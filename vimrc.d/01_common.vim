@@ -10,8 +10,12 @@ endif
 set encoding=utf-8
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
-set nocompatible
- 
+" Relax file compatibility restriction with original vi
+" (not necessary to set with neovim, but useful for vim)
+if !has('nvim')
+	set nocompatible
+endif
+
 " Enable syntax highlighting
 syntax on
 set hidden

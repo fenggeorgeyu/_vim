@@ -17,6 +17,17 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 Second, start vim, type `:` and type `PlugInstall` to install plugins. Restart vim and start using it.
 
+## Set up for `neovim`
+
+```
+mkdir -p ~/.config/nvim/
+cat << EOF > ~/.config/nvim/init.vim
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath = &runtimepath
+source ~/.vimrc
+EOF
+```
+
 ## Install `YouCompleteMe`
 
 Support C-family languages, Go, and Java:

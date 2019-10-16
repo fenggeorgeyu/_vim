@@ -1,3 +1,6 @@
+# Wed Oct 16 15:20:55 EDT 2019
+
+Start to add support for `neovim`
 
 # Fri Oct 11 20:22:51 EDT 2019
 

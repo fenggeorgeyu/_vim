@@ -3,6 +3,9 @@ let g:tex_flavor='latex'
 let g:vimtex_view_method='skim'
 let g:vimtex_quickfix_mode=0
 let g:vimtex_compiler_method='latexmk' "auto compile using latexmk when file changes
+" let g:vimtex_compiler_method='pdflatex' "doesn't work for pdflatex now
+
+
 set conceallevel=0
 " let g:tex_conceal='abdmg'
 " solve key conflicts in vimtex

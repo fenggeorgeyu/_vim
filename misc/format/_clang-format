@@ -1,0 +1,8 @@
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# ln -s ~/.vim/misc/format/_clang-format ~/.clang-format
+
+
+# https://stackoverflow.com/questions/29477654/how-to-make-clang-format-add-new-line-before-opening-brace-of-a-function
+
+BreakBeforeBraces: Stroustrup
+
