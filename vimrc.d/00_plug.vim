@@ -44,7 +44,7 @@ Plug 'skywind3000/asyncrun.vim'
 " Plug 'rosenfeld/conque-term'
 "---autocomplete
 " Plug 'shougo/neocomplete.vim'
-if v:version > 800 "only for vim > 8.0
+if has("nvim") || v:version > 800 "only for vim > 8.0
  "Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
  Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
  """encoding names
@@ -55,7 +55,7 @@ endif
 "---java complete---
 " Plug 'artur-shaik/vim-javacomplete2' "slow
 "---golang----
-if v:version > 800 "only for vim > 8.0
+if has("nvim") || v:version > 800 "only for vim > 8.0
 	Plug 'fatih/vim-go'
 endif
 "---colorscheme----
