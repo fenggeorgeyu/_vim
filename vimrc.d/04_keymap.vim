@@ -51,6 +51,10 @@ noremap <leader>k :bp\|bd #<CR>
 " which is the default
 map Y y$
 
+"https://vim.fandom.com/wiki/Automatically_wrap_left_and_right
+"Automatically wrap left and right when moving at the begin/end of the line
+set whichwrap+=<,>,h,l,[,]
+
 "--------------- move key in wrap model ---------------
 nnoremap j gj
 nnoremap k gk
@@ -63,10 +67,12 @@ vnoremap <Up> gk
 "--------------- move arrow keys in wrap model ---------------
 " inoremap <Down> <C-o>gj
 " inoremap <Up> <C-o>gk   
-" inoremap <buffer> <Up> <C-O>gk
-" inoremap <buffer> <Down> <C-O>gj
-inoremap <Up> <C-O>gk
+inoremap <buffer> <Down> <C-O>gj
+inoremap <buffer> <Up> <C-O>gk
 inoremap <Down> <C-O>gj
+inoremap <Up> <C-O>gk
+
+
 
 noremap <buffer> <silent> 0 g0
 noremap <buffer> <silent> $ g$
