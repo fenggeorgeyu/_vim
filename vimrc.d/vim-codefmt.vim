@@ -1,4 +1,8 @@
 "https://github.com/google/vim-codefmt
+" example style file in `misc/format/` link them to home folder
+" e.g. _clang-format
+" ln -s ~/.vim/misc/format/_clang-format ~/.clang-format
+
 
 " augroup autoformat_settings
 "   autocmd FileType bzl NoAutoFormatBuffer buildifier
