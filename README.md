@@ -17,7 +17,7 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 Second, start vim, type `:` and type `PlugInstall` to install plugins. Restart vim and start using it.
 
-## Set up for `neovim`
+## Setup for `neovim`
 
 ```
 ln -s ~/.vim/nvim ~/.config/.
