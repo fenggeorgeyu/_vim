@@ -27,7 +27,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Plug 'enricobacis/vim-airline-clock'
 Plug 'reedes/vim-lexical'
+" --- file explorer ---
 Plug 'scrooloose/nerdtree'
+" --- comment ---
 Plug 'tpope/vim-commentary'
 "---buffer on tab---
 "" use tabline in airline extension
@@ -45,9 +47,8 @@ Plug 'skywind3000/asyncrun.vim'
 "---autocomplete
 " Plug 'shougo/neocomplete.vim'
 if has("nvim") || v:version > 800 "only for vim > 8.0
- "Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
- Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
- """encoding names
+ " Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
+ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 endif
 "---programming grammar check---
 " Plug 'scrooloose/syntastic' "slow

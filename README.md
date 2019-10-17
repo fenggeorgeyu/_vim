@@ -20,12 +20,7 @@ Second, start vim, type `:` and type `PlugInstall` to install plugins. Restart v
 ## Set up for `neovim`
 
 ```
-mkdir -p ~/.config/nvim/
-cat << EOF > ~/.config/nvim/init.vim
-set runtimepath^=~/.vim runtimepath+=~/.vim/after
-let &packpath = &runtimepath
-source ~/.vimrc
-EOF
+ln -s ~/.vim/nvim ~/.config/.
 ```
 
 ## Install `YouCompleteMe`

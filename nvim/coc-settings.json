@@ -1,0 +1,54 @@
+//---https://github.com/neoclide/coc.nvim/wiki/Using-the-configuration-file---
+
+{
+    //--- python ---
+    //https://github.com/neoclide/coc-python
+    //:CocInstall coc-pyhton
+    // do not change languageserver settings if use coc-python
+    // pip3 install python-language-server
+    "python.jediEnabled":false, //use MS Python server instead of jedi
+    "python.autoComplete.extraPaths": [".","./src"],  
+    // add {workspaceFolder}/src to extraPaths
+
+    "languageserver": {
+        //--- C/C++/Objective-C ---
+        //--- https://github.com/neoclide/coc.nvim/wiki/Language-servers#ccobjective-c ---
+        //--- brew install ccls ---
+        "ccls": {
+            "command": "ccls",
+            "filetypes": ["c", "cpp", "objc", "objcpp"],
+            "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                },
+                "clang": {
+                    // make sure you have installed commandLineTools
+                    "resourceDir": "/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0",
+                    "extraArgs": [
+                        "-isystem",
+                        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
+                        "-I",
+                        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
+                    ]
+                }
+            }
+        },
+
+
+        //--- bash ---
+        "bash": {
+            "command": "bash-language-server",
+            "args": ["start"],
+            "filetypes": ["sh"],
+            "ignoredRootPaths": ["~"]
+        },
+
+        //--- docker file ---
+        "dockerfile": {
+            "command": "docker-langserver",
+            "filetypes": ["dockerfile"],
+            "args": ["--stdio"]
+        }
+    }
+}

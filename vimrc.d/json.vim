@@ -7,4 +7,6 @@ augroup json_autocmd
   autocmd FileType json set expandtab
   " autocmd FileType json set foldmethod=syntax "fold methods
   autocmd FileType json let g:vim_json_syntax_conceal=0
+  "---https://github.com/neoclide/coc.nvim/wiki/Using-the-configuration-file---
+  autocmd FileType json syntax match Comment +\/\/.\+$+
 augroup END
