@@ -104,6 +104,7 @@ inoremap <C-a> <C-o>0
 
 
 " nvim translation
+" Alt+Shift+<-/-> also works
 if has('nvim')
 	" alt + Backspace/Left/Right 
 	inoremap <A-BS> <C-w>
