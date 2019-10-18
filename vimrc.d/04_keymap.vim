@@ -1,6 +1,10 @@
 " change the mapleader from \ to ;
 let mapleader=";"
 let maplocalleader = "'"
+" Use <F2> to toggle between 'paste' and 'nopaste'
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
 
 " switch windows
 nnoremap <C-J> <C-W><C-J>
@@ -72,8 +76,6 @@ inoremap <buffer> <Up> <C-O>gk
 inoremap <Down> <C-O>gj
 inoremap <Up> <C-O>gk
 
-
-
 noremap <buffer> <silent> 0 g0
 noremap <buffer> <silent> $ g$
 " vnoremap <buffer> <silent> 0 g0
@@ -89,16 +91,27 @@ noremap <D-Right> g$
 "---backspace---
 " backspace in iterm
 set backspace=indent,eol,start
-"" https://stackoverflow.com/questions/11659618/altbackspace-to-delete-words-in-vim/11665408#11665408
-" In iTerm2, the option keys is mapped to +Esc, the following key map will
-" work as Alt+Backspace usually does
-inoremap <Esc><BS> <C-w>
 " ----------move with alt key----------
 " check item2 profile key setting to see which key is sending when pressing
 " or use `sed -n l` in terminal to and press keys to see
 " alt+<- and alt+->
+inoremap <Esc><BS> <C-w>
 inoremap <Esc>b <C-Left>
 inoremap <Esc>f <C-Right>
+" command <-/-> for begin/end of line
+inoremap <C-e> <C-o>$
+inoremap <C-a> <C-o>0
+
+
+" nvim translation
+if has('nvim')
+	" alt + Backspace/Left/Right 
+	inoremap <A-BS> <C-w>
+	inoremap <A-b> <C-Left>
+	inoremap <A-f> <C-Right>
+endif
+
+
 " D-> and D<- work as End and Home key
 " this needs to add in iterm profile key: 
 " FOR  		   ACTION           SEND
@@ -106,20 +119,9 @@ inoremap <Esc>f <C-Right>
 " command ->  "SEND HEX CODE"   0x05
 " alt <- 	  "SEND ESC SEQ" 	b
 " alt -> 	  "SEND ESC SEQ"    f
-inoremap <C-e> <C-o>$
-inoremap <C-a> <C-o>0
 
 
-" imap <C-BS> <C-W>
-" noremap! <C-BS> <C-w>
-" noremap! <C-h> <C-w>
-" inoremap <C-w> <C-\><C-o>dB
-" inoremap <C-BS> <C-\><C-o>db
-"
 
 
-" Use <F2> to toggle between 'paste' and 'nopaste'
-nnoremap <F2> :set invpaste paste?<CR>
-set pastetoggle=<F2>
-set showmode
+
 
