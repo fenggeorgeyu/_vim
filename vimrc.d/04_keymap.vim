@@ -112,6 +112,14 @@ if has('nvim')
 	inoremap <A-f> <C-Right>
 endif
 
+"----file related keys----
+"" C-s to save file
+noremap <silent> <C-s>          :update<CR>
+vnoremap <silent> <C-s>         <C-C>:update<CR>
+inoremap <silent> <C-s>         <C-O>:update<CR>
+"" undo/redo
+inoremap <C-z> <C-o>u
+inoremap <C-r> <C-o><C-r>
 
 " D-> and D<- work as End and Home key
 " this needs to add in iterm profile key: 
