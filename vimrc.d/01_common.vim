@@ -53,7 +53,10 @@ set nowb
 set noswapfile
 " set indent
 set autoindent
-set noexpandtab
+"" do not insert space for tab
+" set noexpandtab
+"" insert space for tab
+set expandtab
 set tabstop=4
 set shiftwidth=4
 " set foldmethod=expr " fold
