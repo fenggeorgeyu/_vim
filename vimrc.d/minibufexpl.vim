@@ -16,12 +16,15 @@ map <Leader>mbc :MBEClose<cr>
 map <Leader>mbt :MBEToggle<cr>
 
 " MiniBufExpl Colors
+" https://jonasjacek.github.io/colors/
 hi MBENormal               guifg=black guibg=fg		  
 hi MBEChanged              guifg=red   guibg=fg		 ctermfg=red
 hi MBEVisibleNormal        guifg=black guibg=fg		  
 hi MBEVisibleChanged       guifg=red   guibg=fg		 ctermfg=red
-hi MBEVisibleActiveNormal  guifg=black guibg=#87ff87 ctermfg=black 	ctermbg=120
-hi MBEVisibleActiveChanged guifg=red   guibg=#87ff87 ctermfg=red 	ctermbg=120
+hi MBEVisibleActiveNormal  guifg=black guibg=#2b8eff ctermfg=white 	ctermbg=26
+hi MBEVisibleActiveChanged guifg=red   guibg=#2b8eff ctermfg=red 	ctermbg=26
+" hi MBEVisibleActiveNormal  guifg=black guibg=#87ff87 ctermfg=black 	ctermbg=120
+" hi MBEVisibleActiveChanged guifg=red   guibg=#87ff87 ctermfg=red 	ctermbg=120
 " hi MBEVisibleActiveNormal  guifg=#A6DB29 guibg=fg ctermfg=black ctermbg=darkgreen
 " hi MBEVisibleActiveChanged guifg=#F1266F guibg=fg ctermfg=red ctermbg=darkgreen
 
