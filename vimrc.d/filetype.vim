@@ -9,3 +9,5 @@ augroup filetypedetect
 	au BufRead,BufNewFile *.job set filetype=sh "qsub job file highligh in shell
 augroup END
 
+
+

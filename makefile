@@ -1,6 +1,4 @@
 
-main=main
-
 #---timestamp for file names
 ts:=$(shell date +%Y%m%d-%Hh%Mm%Ss%z)
 year:=$(shell date +%Y)

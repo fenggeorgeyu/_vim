@@ -59,6 +59,10 @@ set autoindent
 set expandtab
 set tabstop=4
 set shiftwidth=4
+"---set textwidth for certain file types---
+"---may look inconvenient in overleaf---
+" autocmd Filetype markdown,tex setlocal textwidth=80
+
 " set foldmethod=expr " fold
 set foldmethod=syntax
 set foldlevel=100
@@ -82,6 +86,5 @@ autocmd InsertLeave * set nocul
 "---timeout from insert to normal mode---
 set timeoutlen=300 
 set ttimeoutlen=0
-
 
 
