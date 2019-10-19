@@ -7,10 +7,7 @@ year:=$(shell date +%Y)
 month:=$(shell date +%m)
 day:=$(shell date +%d)
 
-
-
 all: 
-
 
 commit:
 	git add .
