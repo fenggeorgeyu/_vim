@@ -106,10 +106,14 @@ inoremap <C-a> <C-o>0
 " nvim translation
 " Alt+Shift+<-/-> also works
 if has('nvim')
-	" alt + Backspace/Left/Right 
+	" alt + Backspace 
 	inoremap <A-BS> <C-w>
+    " for iterm2 alt + Left/Right 
 	inoremap <A-b> <C-Left>
 	inoremap <A-f> <C-Right>
+    " for vimr gui alt + Left/Right 
+	inoremap <A-Left> <C-Left>
+	inoremap <A-Right> <C-Right>
 endif
 
 "----file related keys----

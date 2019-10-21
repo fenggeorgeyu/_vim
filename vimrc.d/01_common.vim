@@ -21,7 +21,7 @@ syntax on
 set hidden
 set wildmenu
 set showcmd
-set hlsearch
+" set hlsearch
 set nomodeline
 set ignorecase
 set smartcase
