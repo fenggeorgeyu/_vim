@@ -71,7 +71,7 @@ if has("gui_running")
 	" colorscheme darkblue
 	" colorscheme pencil
  	" colorscheme zenburn
-	colorscheme onedark
+	" colorscheme onedark
 	" let g:airline_theme='aurora' 
 	" let g:airline_theme='silver' 
 endif

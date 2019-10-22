@@ -107,13 +107,16 @@ inoremap <C-a> <C-o>0
 " Alt+Shift+<-/-> also works
 if has('nvim')
 	" alt + Backspace 
-	inoremap <A-BS> <C-w>
+	inoremap <silent> <A-BS> <C-w>
     " for iterm2 alt + Left/Right 
-	inoremap <A-b> <C-Left>
-	inoremap <A-f> <C-Right>
+	inoremap <silent> <A-b> <C-Left>
+	inoremap <silent> <A-f> <C-Right>
     " for vimr gui alt + Left/Right 
-	inoremap <A-Left> <C-Left>
-	inoremap <A-Right> <C-Right>
+	inoremap <silent> <A-Left> <C-Left>
+	inoremap <silent> <A-Right> <C-Right>
+    " commmand+<-/-> begin/end of line
+    inoremap <silent> <D-Left> <C-o>0
+    inoremap <silent> <D-Right> <C-o>$
 endif
 
 "----file related keys----
