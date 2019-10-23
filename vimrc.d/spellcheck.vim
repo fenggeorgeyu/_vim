@@ -18,6 +18,16 @@ autocmd FileType bib setlocal nospell "bibtex
 autocmd FileType vim setlocal nospell "vim script
 autocmd FileType c,cpp,python,java setlocal nospell 
 
+" do not check url
+syn match UrlNoSpell '\w\+:\/\/[^[:space:]]\+' contains=@NoSpell
+
+" https://stackoverflow.com/questions/18196399/exclude-capitalized-words-from-vim-spell-check
+" do not check captitalized words
+" syn match myExCapitalWords +\<[A-Z]\w*\>+ contains=@NoSpell
+syn match myExCapitalWords +\<\w*[A-Z]\S*\>+ contains=@NoSpell
+
+" exclude all words from spell checking that contain at least one non-alphabetic character 
+syn match myExNonWords +\<\p*[^A-Za-z \t]\p*\>+ contains=@NoSpell
 
 
 "---word completion---
