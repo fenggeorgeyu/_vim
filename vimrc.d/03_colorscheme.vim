@@ -2,6 +2,14 @@
 set background=dark
 " set background=light
 
+"---set separator symble---
+set fillchars+=vert:│
+" set fillchars+=vert:\ 
+" set fillchars="" 
+
+"---adjust darkblue scheme separator color
+autocmd ColorScheme darkblue highlight VertSplit cterm=NONE ctermfg=gray ctermbg=NONE guifg=gray guibg=darkblue
+
 "---spell check error highligthing---
 "---SpellBad, SpellCap, SpellRare, SpellLocal---
 autocmd ColorScheme * hi clear SpellBad
@@ -49,17 +57,11 @@ colorscheme jellybeans
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
 " hi Cursor guifg=white guibg=red
-"---spliting bar styling---
-" set fillchars+=vert:\ 
-" set fillchars="" 
 " hi LineNr guibg=bg
 " set foldcolumn=2
 " hi foldcolumn guibg=bg
 " hi VertSplit guibg=bg guifg=gray
 " hi VertSplit guibg=bg
-""---turn off error highlight---
-"au ColorScheme * hi Error NONE
-"au ColorScheme * hi ErrorMsg NONE
 
 "---highlight current line and column
 " set cursorline "show current line
@@ -69,6 +71,7 @@ if has("gui_running") || has("gui_vimr")
 	" set background=light
 	" colorscheme macvim
 	" colorscheme darkblue
+	" let g:airline_theme='jellybeans' 
 	" colorscheme pencil
  	" colorscheme zenburn
 	" colorscheme onedark
