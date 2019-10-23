@@ -21,16 +21,16 @@ export const activate = (oni: Oni.Plugin.Api) => {
 
 }
 
-export const deactivate = (oni: Oni.Plugin.Api) => {
-    console.log("config deactivated")
-}
+// export const deactivate = (oni: Oni.Plugin.Api) => {
+//     console.log("config deactivated")
+// }
 
 export const configuration = {
     //add custom config here, such as
     activate,
     "oni.hideMenu"             : "hidden", // Hide top bar menu
     "oni.loadInitVim"          : true, // Load user's init.vim
-    "oni.useDefaultConfig"     : false, // Do not load Oni's init.vim
+    "oni.useDefaultConfig"     : false, 
     "ui.colorscheme"           : "n/a", // Load init.vim colorscheme, remove this line if wants Oni's default
     "autoClosingPairs.enabled" : false, // disable autoclosing pairs
     "commandline.mode"         : false, // Do not override commandline UI
@@ -43,6 +43,8 @@ export const configuration = {
     "achievements.enabled"     : false, // Turn off achievements tracking / UX
     "editor.typingPrediction"  : false, // Wait for vim's confirmed typed characters, avoid edge cases
     "editor.textMateHighlighting.enabled" : false, // Use vim syntax highlighting
+    "editor.fontSize": "17px",
+    "editor.fontFamily": "Consolas-with-Yahei",
     //"ui.colorscheme": "nord",
 
     //"oni.useDefaultConfig": true,
@@ -53,5 +55,5 @@ export const configuration = {
 
     // UI customizations
     "ui.animations.enabled": true,
-    "ui.fontSmoothing": "auto",
+    "ui.fontSmoothing": "auto"
 }

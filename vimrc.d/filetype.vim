@@ -7,6 +7,7 @@ augroup filetypedetect
 	au BufRead,BufNewFile *.md,*.txt,*.markdown,*.mdown,*.mkd,*.mkdn,*.mdwn set filetype=markdown
 	au BufRead,BufNewFile *.cu set filetype=cuda
 	au BufRead,BufNewFile *.job set filetype=sh "qsub job file highligh in shell
+	au BufRead,BufNewFile *.tsx set filetype=javascript
 augroup END
 
 
