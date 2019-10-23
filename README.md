@@ -23,6 +23,12 @@ Second, start vim, type `:` and type `PlugInstall` to install plugins. Restart v
 ln -s ~/.vim/nvim ~/.config/.
 ```
 
+## Setup for `oni` as a gui for `neovim`
+
+```
+ln -s ~/.vim/oni ~/.config/.
+```
+
 ## Install `YouCompleteMe`
 
 Support C-family languages, Go, and Java:

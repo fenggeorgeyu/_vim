@@ -65,7 +65,7 @@ colorscheme jellybeans
 " set cursorline "show current line
 " set cursorcolumn "show current column
 "---colorcheme for gui----
-if has("gui_running")
+if has("gui_running") || has("gui_vimr")
 	" set background=light
 	" colorscheme macvim
 	" colorscheme darkblue

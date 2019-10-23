@@ -114,6 +114,9 @@ if has('nvim')
     " for vimr gui alt + Left/Right 
 	inoremap <silent> <A-Left> <C-Left>
 	inoremap <silent> <A-Right> <C-Right>
+endif
+
+if has("gui_vimr")
     " commmand+<-/-> begin/end of line
     inoremap <silent> <D-Left> <C-o>0
     inoremap <silent> <D-Right> <C-o>$
