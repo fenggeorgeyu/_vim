@@ -8,7 +8,7 @@ set fillchars+=vert:│
 " set fillchars="" 
 
 "---adjust darkblue scheme separator color
-autocmd ColorScheme darkblue highlight VertSplit cterm=NONE ctermfg=gray ctermbg=NONE guifg=gray guibg=darkblue
+autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NONE guifg=gray guibg=NONE
 
 "---spell check error highligthing---
 "---SpellBad, SpellCap, SpellRare, SpellLocal---
@@ -56,12 +56,10 @@ colorscheme jellybeans
 
 "-------caret color-----
 " hi Cursor guifg=white guibg=brown
-" hi Cursor guifg=white guibg=red
+hi Cursor guifg=white guibg=red
 " hi LineNr guibg=bg
 " set foldcolumn=2
 " hi foldcolumn guibg=bg
-" hi VertSplit guibg=bg guifg=gray
-" hi VertSplit guibg=bg
 
 "---highlight current line and column
 " set cursorline "show current line
