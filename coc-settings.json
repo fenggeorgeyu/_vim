@@ -6,7 +6,7 @@
     //:CocInstall coc-pyhton
     // do not change languageserver settings if use coc-python
     // pip3 install python-language-server
-    "python.jediEnabled":false, //use MS Python server instead of jedi
+    // "python.jediEnabled":false, //use MS Python server instead of jedi 
     "python.autoComplete.extraPaths": [".","./src"],  
     // add {workspaceFolder}/src to extraPaths
 
