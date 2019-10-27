@@ -16,8 +16,8 @@ Plug 'ascenator/L9', {'name': 'newL9'}
 " Plug 'tpope/vim-fugitive'
 "---markdown--------
 "required by plasticboy/vim-markdown
-Plug 'godlygeek/tabular' 
-Plug 'plasticboy/vim-markdown'
+" Plug 'godlygeek/tabular' 
+" Plug 'plasticboy/vim-markdown'
 " Plug 'tpope/vim-markdown'
 " Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'fenggeorgeyu/vim-markdown-preview'

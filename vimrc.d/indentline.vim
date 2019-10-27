@@ -1,4 +1,7 @@
-"https://vimawesome.com/plugin/indentline"
+"https://github.com/yggdroot/indentline
+
+"---conceallevel---
+let g:indentLine_setConceal=0
 
 "---vim---
 " let g:indentLine_color_term = 239
