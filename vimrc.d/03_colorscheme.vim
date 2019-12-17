@@ -66,8 +66,8 @@ hi Cursor guifg=white guibg=red
 " set cursorcolumn "show current column
 "---colorcheme for gui----
 if has("gui_running") || has("gui_vimr")
-	" set background=light
-	" colorscheme macvim
+	set background=light
+	colorscheme macvim
 	" colorscheme darkblue
 	" let g:airline_theme='jellybeans' 
 	" colorscheme pencil
