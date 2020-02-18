@@ -67,9 +67,10 @@ hi Cursor guifg=white guibg=red
 "---colorcheme for gui----
 if has("gui_running") || has("gui_vimr")
 	set background=light
-	colorscheme macvim
+    colorscheme morning
+	" colorscheme macvim
 	" colorscheme darkblue
-	" let g:airline_theme='jellybeans' 
+	let g:airline_theme='jellybeans' 
 	" colorscheme pencil
  	" colorscheme zenburn
 	" colorscheme onedark
