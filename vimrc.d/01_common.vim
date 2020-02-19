@@ -47,6 +47,7 @@ set number
  
 "softwrap setting
 set wrap linebreak nolist
+set tw=80
 " no backup
 set nobackup
 set nowb
