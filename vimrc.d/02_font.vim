@@ -5,7 +5,8 @@
 if has("gui_running")
     if has("gui_gtk2")
         set guifont=Inconsolata\ 17
-    elseif has("gui_running") || has("gui_vimr") || has("oni")
+    " elseif has("gui_running") || has("gui_vimr") || has("oni")
+    elseif has("gui_running") && !has("gui_vimr")
         set guifont=Consolas-with-Yahei:h18
     elseif has("gui_win32")
         set guifont=Consolas:h11:cANSI
