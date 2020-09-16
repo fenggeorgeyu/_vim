@@ -88,4 +88,12 @@ autocmd InsertLeave * set nocul
 set timeoutlen=300
 set ttimeoutlen=0
 
+"----fix insert >4;2m code in centos linux gnome-terminal---
+"https://github.com/vim/vim/issues/6122
+" Avoid issues after vim-8.2.0767 with terminals presumably too old
+" to handle t_TI and t_TE. See:
+" - https://github.com/vim/vim/issues/6111
+" - https://github.com/vim/vim/issues/6112
+" - https://github.com/vim/vim/issues/6122
+set t_TI= t_TE=
 
