@@ -22,6 +22,9 @@ nnoremap <C-H> <C-W><C-H>
 " noremap <silent> <C-Up> <C-U>
 " noremap <silent> <C-Down> <C-D>
 noremap <silent> <C-E> <C-U>
+" Alt+Up/down: page up/down
+noremap <silent> <A-Up> <C-U>
+noremap <silent> <A-Down> <C-D>
 
 
 "change tab switch
