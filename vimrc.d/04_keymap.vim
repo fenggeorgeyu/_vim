@@ -140,5 +140,5 @@ inoremap <C-r> <C-o><C-r>
 " alt -> 	  "SEND ESC SEQ"    f
 
 
-
-
+" add esc for ipad
+inoremap jk <Esc>
