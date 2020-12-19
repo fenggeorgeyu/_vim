@@ -53,6 +53,9 @@ flags = [
 '/usr/include',
 '-isystem',
 '/usr/local/include',
+# on osc gcc include
+'-isystem',
+'/usr/lib/gcc/x86_64-redhat-linux/*/include',
 '-isystem',
 '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks',
 # '-I./driver',
