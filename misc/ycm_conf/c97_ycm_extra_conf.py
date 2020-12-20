@@ -1,3 +1,5 @@
+# ycm load confg default location is ~/.ycm_extra_conf.py
+# ln -s ~/.vim/misc/ycm_conf/c97_ycm_extra_conf.py ~/.ycm_extra_conf.py
 # https://github.com/ycm-core/ycmd/blob/master/examples/.ycm_extra_conf.py
 # Copyright (C) 2014 Google Inc.
 #
@@ -24,17 +26,27 @@ import ycm_core
 # CHANGE THIS LIST OF FLAGS. YES, THIS IS THE DROID YOU HAVE BEEN LOOKING FOR.
 flags = [
 '-Wall',
-# '-Wextra',
+'-Wextra',
 '-Werror',
+'-Wc++98-compat',
+'-Wno-long-long',
+'-Wno-variadic-macros',
 '-fexceptions',
 '-DNDEBUG',
+'-std=c99',
+# '-Wall',
+# '-Wextra',
+# '-Werror',
+# '-fexceptions',
+# '-DNDEBUG',
 # THIS IS IMPORTANT! Without a "-std=<something>" flag, clang won't know which
 # language to use when compiling headers. So it will guess. Badly. So C++
 # headers will be compiled as C headers. You don't want that so ALWAYS specify
 # a "-std=<something>".
 # For a C project, you would set this to something like 'c99' instead of
 # 'c++11'.
-'-std=c97',
+# '-std=c97',
+# '-std=c99',
 # '-std=c11',
 # '-std=c++17',
 # ...and the same thing goes for the magic -x option which specifies the
@@ -55,9 +67,10 @@ flags = [
 '/usr/local/include',
 # on osc gcc include
 '-isystem',
-'/usr/lib/gcc/x86_64-redhat-linux/*/include',
-'-isystem',
-'/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks',
+'/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include',
+# '-I/usr/lib/gcc/x86_64-redhat-linux/*/include'
+# '-isystem',
+# '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks',
 # '-I./driver',
 # '-I./debug',
 '-I./src',
@@ -79,7 +92,7 @@ if os.path.exists( compilation_database_folder ):
 else:
   database = None
 
-SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]
+SOURCE_EXTENSIONS = [ '.c', '.cpp', '.cxx', '.cc', '.m', '.mm' ]
 
 def DirectoryOfThisScript():
   return os.path.dirname( os.path.abspath( __file__ ) )
