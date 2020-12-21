@@ -68,6 +68,9 @@ flags = [
 # on osc gcc include
 '-isystem',
 '/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include',
+# on mac gcc include
+'-isystem',
+'/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include'
 # '-I/usr/lib/gcc/x86_64-redhat-linux/*/include'
 # '-isystem',
 # '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks',
