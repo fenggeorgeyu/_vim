@@ -48,8 +48,8 @@ Plug 'skywind3000/asyncrun.vim'
 " Plug 'shougo/neocomplete.vim'
 if has("nvim") || v:version > 800 "only for vim > 8.0
  " Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
- " Plug 'neoclide/coc.nvim', {'branch': 'release'}
- Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+ Plug 'neoclide/coc.nvim', {'branch': 'release'}
+ " Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 endif
 "---programming grammar check---
 " Plug 'scrooloose/syntastic' "slow
