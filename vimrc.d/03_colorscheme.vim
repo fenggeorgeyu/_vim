@@ -1,11 +1,9 @@
-"---set background---
-set background=dark
-" set background=light
 
 "---set separator symble---
 set fillchars+=vert:│
 " set fillchars+=vert:\ 
 " set fillchars="" 
+
 
 "---adjust darkblue scheme separator color
 autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NONE guifg=gray guibg=NONE
@@ -28,54 +26,62 @@ autocmd ColorScheme * hi clear SpellLocal
  \| hi SpellBad gui=undercurl guibg=NONE
  \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=NONE
 
+
 "-------color theme-------
-" colorscheme molokai
-" colorscheme morning
-" colorscheme cobalt2
-" colorscheme darkblue
-" colorscheme zenburn
-" "---one dark colorscheme---
-" " https://github.com/joshdick/onedark.vim
-" colorscheme onedark
-" let g:onedark_termcolors=256
-" let g:onedark_color_overrides = {
-" \ "black": {"gui": "#2F343F", "cterm": "235", "cterm16": "0" },
-" \ "purple": { "gui": "#C678DF", "cterm": "170", "cterm16": "5" }
-" \}
-" colorscheme spacegray
-" let g:spacegray_underline_search = 1
-" let g:spacegray_low_contrast = 1
-" colorscheme afterglow
-" colorscheme forest-night
-colorscheme jellybeans
-"-------vim-colors-pencil---------
-" colorscheme pencil
-"--- code background ---
-" let g:pencil_neutral_code_bg = 1   " 0=gray (def), 1=normal
-
-
-"-------caret color-----
-" hi Cursor guifg=white guibg=brown
-hi Cursor guifg=white guibg=red
-" hi LineNr guibg=bg
-" set foldcolumn=2
-" hi foldcolumn guibg=bg
-
-"---highlight current line and column
-" set cursorline "show current line
-" set cursorcolumn "show current column
 "---colorcheme for gui----
 if has("gui_running") || has("gui_vimr")
 	set background=light
-    colorscheme morning
-	" colorscheme macvim
+    " colorscheme morning
+	colorscheme macvim
 	" colorscheme darkblue
-	let g:airline_theme='jellybeans' 
 	" colorscheme pencil
  	" colorscheme zenburn
 	" colorscheme onedark
+	" let g:airline_theme='jellybeans' 
 	" let g:airline_theme='aurora' 
 	" let g:airline_theme='silver' 
+	let g:airline_theme='light'
+    "-------caret color-----
+    hi Cursor guifg=white guibg=red
+else
+    "---set background---
+    set background=dark
+    " set background=light
+    " colorscheme molokai
+    " colorscheme morning
+    " colorscheme cobalt2
+    " colorscheme darkblue
+    " colorscheme zenburn
+    " "---one dark colorscheme---
+    " " https://github.com/joshdick/onedark.vim
+    " colorscheme onedark
+    " let g:onedark_termcolors=256
+    " let g:onedark_color_overrides = {
+    " \ "black": {"gui": "#2F343F", "cterm": "235", "cterm16": "0" },
+    " \ "purple": { "gui": "#C678DF", "cterm": "170", "cterm16": "5" }
+    " \}
+    " colorscheme spacegray
+    " let g:spacegray_underline_search = 1
+    " let g:spacegray_low_contrast = 1
+    " colorscheme afterglow
+    " colorscheme forest-night
+    colorscheme jellybeans
+    "-------vim-colors-pencil---------
+    " colorscheme pencil
+    "--- code background ---
+    " let g:pencil_neutral_code_bg = 1   " 0=gray (def), 1=normal
+    
+    
+    "-------caret color-----
+    " hi Cursor guifg=white guibg=brown
+    hi Cursor guifg=white guibg=red
+    " hi LineNr guibg=bg
+    " set foldcolumn=2
+    " hi foldcolumn guibg=bg
+    
+    "---highlight current line and column
+    " set cursorline "show current line
+    " set cursorcolumn "show current column
 endif
 
 
