@@ -19,7 +19,6 @@ Plug 'ascenator/L9', {'name': 'newL9'}
 " Plug 'godlygeek/tabular' 
 " Plug 'plasticboy/vim-markdown'
 " Plug 'tpope/vim-markdown'
-" Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'fenggeorgeyu/vim-markdown-preview'
 " Plug 'suan/vim-instant-markdown', {'rtp': 'after'}
 "----markdown--end--

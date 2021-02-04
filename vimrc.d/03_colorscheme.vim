@@ -8,23 +8,6 @@ set fillchars+=vert:│
 "---adjust darkblue scheme separator color
 autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NONE guifg=gray guibg=NONE
 
-"---spell check error highligthing---
-"---SpellBad, SpellCap, SpellRare, SpellLocal---
-autocmd ColorScheme * hi clear SpellBad
- \| hi SpellBad gui=undercurl guisp=red guibg=NONE
- \| hi SpellBad cterm=underline ctermfg=red ctermbg=NONE
-autocmd ColorScheme * hi clear SpellRare
- \| hi SpellRare gui=undercurl guisp=yellow guibg=NONE
- \| hi SpellRare cterm=underline ctermfg=yellow ctermbg=NONE
-autocmd ColorScheme * hi clear SpellCap
- \| hi SpellCap gui=undercurl guisp=orange guibg=NONE
- \| hi SpellCap cterm=underline ctermfg=brown ctermbg=NONE
-autocmd ColorScheme * hi clear SpellLocal
- \| hi SpellLocal gui=undercurl guisp=brown guibg=NONE
- " \| hi SpellBad gui=undercurl,bold guifg=red guibg=NONE
- " \| hi SpellBad cterm=undercurl,bold ctermfg=red ctermbg=NONE
- \| hi SpellBad gui=undercurl guibg=NONE
- \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=NONE
 
 
 "-------color theme-------
@@ -41,8 +24,6 @@ if has("gui_running") || has("gui_vimr")
 	" let g:airline_theme='aurora' 
 	" let g:airline_theme='silver' 
 	let g:airline_theme='light'
-    "-------caret color-----
-    hi Cursor guifg=white guibg=red
 else
     "---set background---
     set background=dark
@@ -74,7 +55,7 @@ else
     
     "-------caret color-----
     " hi Cursor guifg=white guibg=brown
-    hi Cursor guifg=white guibg=red
+    " hi Cursor guifg=white guibg=red
     " hi LineNr guibg=bg
     " set foldcolumn=2
     " hi foldcolumn guibg=bg
@@ -84,7 +65,32 @@ else
     " set cursorcolumn "show current column
 endif
 
+"-------caret color-----
+hi Cursor guifg=white guibg=red
 
+"---spell check error highligthing---
+"---SpellBad, SpellCap, SpellRare, SpellLocal---
+" autocmd ColorScheme * hi clear SpellBad
+"  \| hi SpellBad gui=undercurl guisp=red guibg=NONE
+"  \| hi SpellBad cterm=underline ctermfg=red ctermbg=NONE
+" autocmd ColorScheme * hi clear SpellRare
+"  \| hi SpellRare gui=undercurl guisp=yellow guibg=NONE
+"  \| hi SpellRare cterm=underline ctermfg=yellow ctermbg=NONE
+" autocmd ColorScheme * hi clear SpellCap
+"  \| hi SpellCap gui=undercurl guisp=orange guibg=NONE
+"  \| hi SpellCap cterm=underline ctermfg=brown ctermbg=NONE
+" autocmd ColorScheme * hi clear SpellLocal
+"  \| hi SpellLocal gui=undercurl guisp=brown guibg=NONE
+"  " \| hi SpellBad gui=undercurl,bold guifg=red guibg=NONE
+"  " \| hi SpellBad cterm=undercurl,bold ctermfg=red ctermbg=NONE
+"  \| hi SpellBad gui=undercurl guibg=NONE
+"  \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=NONE
 
+hi clear SpellBad
+hi SpellBad cterm=underline ctermfg=red
+" Set style for gVim
+hi SpellBad gui=undercurl guisp=red
+
+" hi htmlItalic gui=italic guifg=#ff8700 guibg=NONE ctermfg=214 ctermbg=NONE
 
 
