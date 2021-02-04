@@ -64,12 +64,13 @@ Plug 'tomasr/molokai'
 " Plug 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
 " Plug 'jnurmine/Zenburn' "zenburn
 " Plug 'romainl/apprentice' "good dark theme
-" Plug 'rakr/vim-one' "one-light and one-dark theme
+Plug 'fenggeorgeyu/vim-one' "one-light and one-dark theme
 Plug 'joshdick/onedark.vim'
 " Plug 'sainnhe/vim-color-forest-night'
 Plug 'nanotech/jellybeans.vim'
 " Plug 'ajh17/spacegray.vim'
 " Plug 'danilo-augusto/vim-afterglow'
+" Plug 'acarapetis/vim-colors-github'
 "---tag list bar---
 Plug 'majutsushi/tagbar'
 "---auto generate tags--

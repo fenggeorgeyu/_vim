@@ -15,15 +15,18 @@ autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NO
 if has("gui_running") || has("gui_vimr")
 	set background=light
     " colorscheme morning
-	colorscheme macvim
+	" colorscheme macvim
 	" colorscheme darkblue
 	" colorscheme pencil
  	" colorscheme zenburn
+	colorscheme one
 	" colorscheme onedark
+	" colorscheme github
 	" let g:airline_theme='jellybeans' 
 	" let g:airline_theme='aurora' 
 	" let g:airline_theme='silver' 
-	let g:airline_theme='light'
+	" let g:airline_theme='light'
+    let g:airline_theme='one'
 else
     "---set background---
     set background=dark
@@ -46,7 +49,8 @@ else
     " let g:spacegray_low_contrast = 1
     " colorscheme afterglow
     " colorscheme forest-night
-    colorscheme jellybeans
+    " colorscheme jellybeans
+	colorscheme one
     "-------vim-colors-pencil---------
     " colorscheme pencil
     "--- code background ---
