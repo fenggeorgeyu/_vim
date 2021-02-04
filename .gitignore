@@ -10,6 +10,7 @@ plugged/
 
 spell/
 spell
+!spell/.empty
 
 *.html
 

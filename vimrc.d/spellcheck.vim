@@ -26,6 +26,10 @@ syn match UrlNoSpell '\w\+:\/\/[^[:space:]]\+' contains=@NoSpell
 " syn match myExCapitalWords +\<[A-Z]\w*\>+ contains=@NoSpell
 syn match myExCapitalWords +\<\w*[A-Z]\S*\>+ contains=@NoSpell
 
+" ignore check first word of the sentense
+" https://stackoverflow.com/questions/50217065/how-to-force-vim-spellchecker-to-ignore-lowercase-uppercase-errors
+set spellcapcheck=
+
 " exclude all words from spell checking that contain at least one non-alphabetic character 
 syn match myExNonWords +\<\p*[^A-Za-z \t]\p*\>+ contains=@NoSpell
 
