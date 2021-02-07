@@ -5,7 +5,7 @@ set fillchars+=vert:│
 " set fillchars="" 
 
 "---adjust darkblue scheme separator color
-autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NONE guifg=gray guibg=NONE
+autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NONE guifg=darkgray guibg=NONE
 
 
 
@@ -31,6 +31,8 @@ else
     set background=dark
     " set background=light
     colorscheme one
+    " colorscheme onedark
+    " colorscheme jellybeans
     let g:airline_theme='one'
     " colorscheme molokai
     " colorscheme morning
@@ -39,7 +41,6 @@ else
     " colorscheme zenburn
     " "---one dark colorscheme---
     " " https://github.com/joshdick/onedark.vim
-    " colorscheme onedark
     " let g:onedark_termcolors=256
     " let g:onedark_color_overrides = {
     " \ "black": {"gui": "#2F343F", "cterm": "235", "cterm16": "0" },
@@ -50,7 +51,6 @@ else
     " let g:spacegray_low_contrast = 1
     " colorscheme afterglow
     " colorscheme forest-night
-    " colorscheme jellybeans
 	" colorscheme one
     "-------vim-colors-pencil---------
     " colorscheme pencil
@@ -68,6 +68,12 @@ else
     "---highlight current line and column
     " set cursorline "show current line
     " set cursorcolumn "show current column
+    "---transparent background
+    hi Normal ctermbg=NONE 
+    " hi NonText ctermbg=NONE guibg=NONE
+    "---menu color
+    hi Pmenu ctermfg=grey ctermbg=black 
+    hi PmenuSel ctermfg=grey ctermbg=darkgrey
 endif
 
 
@@ -101,7 +107,5 @@ hi SpellBad gui=undercurl guisp=red
 
 " hi htmlItalic gui=italic guifg=#ff8700 guibg=NONE ctermfg=214 ctermbg=NONE
 
-" transparent background
-hi! Normal ctermbg=NONE guibg=NONE
-hi! NonText ctermbg=NONE guibg=NONE
+
 
