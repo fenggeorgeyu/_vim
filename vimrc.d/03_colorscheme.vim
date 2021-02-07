@@ -4,7 +4,6 @@ set fillchars+=vert:│
 " set fillchars+=vert:\ 
 " set fillchars="" 
 
-
 "---adjust darkblue scheme separator color
 autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NONE guifg=gray guibg=NONE
 
@@ -102,4 +101,7 @@ hi SpellBad gui=undercurl guisp=red
 
 " hi htmlItalic gui=italic guifg=#ff8700 guibg=NONE ctermfg=214 ctermbg=NONE
 
+" transparent background
+hi! Normal ctermbg=NONE guibg=NONE
+hi! NonText ctermbg=NONE guibg=NONE
 
