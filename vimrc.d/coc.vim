@@ -1,6 +1,10 @@
 "https://github.com/neoclide/coc.nvim
-
-":CocInstall coc-clangd coc-java coc-python coc-go coc-vimtex coc-html coc-css coc-sh 
+" on mac install nodejs
+" brew install node or brew upgrade node
+" in vim install language
+": CocInstall coc-clangd coc-java coc-python coc-go coc-vimtex coc-html coc-css coc-sh 
+" for bash
+" npm i -g bash-language-server
 
 " https://vi.stackexchange.com/questions/19461/integrating-autocomplete-and-snippets
 " Use tab for trigger completion with characters ahead and navigate.
