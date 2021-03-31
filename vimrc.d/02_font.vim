@@ -5,10 +5,10 @@ if has("gui_running")
         set guifont=Inconsolata\ 17
     " elseif has("gui_running") || has("gui_vimr") || has("oni")
     elseif has("gui_running") && !has("gui_vimr")
-        " set guifont=Consolas-with-Yahei:h17
+        " set guifont=Consolas-with-Yahei:h16
         " set guifont=Source\ Code\ Pro\ for\ Powerline:h17
         " set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h17
-        set guifont=Meslo\ LG\ S\ for\ Powerline:h17
+        set guifont=Meslo\ LG\ S\ for\ Powerline:h16
     elseif has("gui_win32")
         set guifont=Consolas:h11:cANSI
     endif
