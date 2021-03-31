@@ -1,6 +1,6 @@
 "https://github.com/neoclide/coc.nvim
 
-":CocInstall coc-java coc-python coc-go coc-vimtex coc-html coc-css 
+":CocInstall coc-clangd coc-java coc-python coc-go coc-vimtex coc-html coc-css coc-sh 
 
 " https://vi.stackexchange.com/questions/19461/integrating-autocomplete-and-snippets
 " Use tab for trigger completion with characters ahead and navigate.
