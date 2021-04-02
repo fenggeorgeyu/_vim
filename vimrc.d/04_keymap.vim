@@ -145,3 +145,12 @@ inoremap <C-r> <C-o><C-r>
 
 " add esc for ipad
 inoremap jk <Esc>
+
+"jump tags in source code
+"jump into function use <C-]>
+"jump to tag again use <C-I>
+"jump back
+nnoremap <C-[> <C-O>
+
+
+
