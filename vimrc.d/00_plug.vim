@@ -93,7 +93,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 "---auto close brackets and others ---
 Plug 'raimondi/delimitmate'
 "--tex---
-" Plug 'lervag/vimtex'
+Plug 'lervag/vimtex'
 "---snippets---
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
