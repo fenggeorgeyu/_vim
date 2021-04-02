@@ -98,9 +98,9 @@ set backspace=indent,eol,start
 " check item2 profile key setting to see which key is sending when pressing
 " or use `sed -n l` in terminal to and press keys to see
 " alt+<- and alt+->
-inoremap <Esc><BS> <C-w>
-inoremap <Esc>b <C-Left>
-inoremap <Esc>f <C-Right>
+" inoremap <Esc><BS> <C-w>
+" inoremap <Esc>b <C-Left>
+" inoremap <Esc>f <C-Right>
 " command <-/-> for begin/end of line
 inoremap <C-e> <C-o>$
 inoremap <C-a> <C-o>0
@@ -144,7 +144,7 @@ inoremap <C-r> <C-o><C-r>
 
 
 " add esc for ipad
-inoremap jk <Esc>
+" inoremap jk <Esc>
 
 "jump tags in source code
 "jump into function use <C-]>
