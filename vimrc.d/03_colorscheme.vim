@@ -15,7 +15,7 @@ autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NO
 if has("gui_running") || has("gui_vimr")
 	set background=light
 	colorscheme one
-    let g:airline_theme='fairyfloss'
+	let g:airline_theme='jellybeans' 
     " let g:airline_theme='one'
     " colorscheme morning
 	" colorscheme macvim
@@ -24,7 +24,6 @@ if has("gui_running") || has("gui_vimr")
  	" colorscheme zenburn
 	" colorscheme onedark
 	" colorscheme github
-	" let g:airline_theme='jellybeans' 
 	" let g:airline_theme='aurora' 
 	" let g:airline_theme='silver' 
 	" let g:airline_theme='light'
