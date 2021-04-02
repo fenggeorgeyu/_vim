@@ -3,6 +3,7 @@
 set fillchars+=vert:│
 " set fillchars+=vert:\ 
 " set fillchars="" 
+" set fillchars+="" 
 
 "---adjust darkblue scheme separator color
 autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NONE guifg=darkgray guibg=NONE
@@ -14,7 +15,8 @@ autocmd ColorScheme * highlight VertSplit cterm=NONE ctermfg=darkgray ctermbg=NO
 if has("gui_running") || has("gui_vimr")
 	set background=light
 	colorscheme one
-    let g:airline_theme='one'
+    let g:airline_theme='fairyfloss'
+    " let g:airline_theme='one'
     " colorscheme morning
 	" colorscheme macvim
 	" colorscheme darkblue
@@ -33,7 +35,8 @@ else
     colorscheme one
     " colorscheme onedark
     " colorscheme jellybeans
-    let g:airline_theme='one'
+    let g:airline_theme='fairyfloss'
+    " let g:airline_theme='one'
     " colorscheme molokai
     " colorscheme morning
     " colorscheme cobalt2
