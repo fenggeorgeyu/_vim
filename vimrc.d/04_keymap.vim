@@ -31,8 +31,8 @@ noremap <silent> <A-Down> <C-D>
 "change tab cmd-shift-L/R
 " noremap <D-S-Left> gT
 " noremap <D-S-Right> gt
-map <D-S-Left> gt
-map <D-S-Right> gT
+noremap <D-S-Left> gt
+noremap <D-S-Right> gT
 
 "---vim-buftabline---
 "previous buffer
@@ -149,8 +149,12 @@ inoremap jk <Esc>
 "jump tags in source code
 "jump into function use <C-]>
 "jump to tag again use <C-I>
-"jump back
-nnoremap <C-[> <C-O>
+"jump back use <C-O>
+" Do NOT use the following maping!
+" It will map <Esc>(=^[) to jump back to previous files
+" NOT USE: nnoremap <C-[> <C-O>
+
+
 
 
 
