@@ -9,4 +9,4 @@ let NERDTreeChDirMode=0 "never change dir in NerdTree
 let NERDTreeNodeDelimiter = "\t" "fix problem missing first letter in tree structure
 
 " auto open nerdtree on vim start
-autocmd VimEnter * NERDTree
+" autocmd VimEnter * NERDTree
