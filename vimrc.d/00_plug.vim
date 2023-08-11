@@ -17,7 +17,8 @@ Plug 'ascenator/L9', {'name': 'newL9'}
 "---markdown--------
 "required by plasticboy/vim-markdown
 Plug 'godlygeek/tabular' 
-Plug 'plasticboy/vim-markdown'
+Plug 'preservim/vim-markdown'
+" Plug 'plasticboy/vim-markdown'
 " Plug 'tpope/vim-markdown'
 " Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'fenggeorgeyu/vim-markdown-preview'
@@ -46,7 +47,7 @@ Plug 'skywind3000/asyncrun.vim'
 " Plug 'shougo/neocomplete.vim'
 if has("nvim") || v:version > 800 "only for vim > 8.0
  "Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
- Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
+" Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
  """encoding names
 endif
 "---programming grammar check---
@@ -105,6 +106,9 @@ Plug 'google/vim-codefmt'
 " Also add Glaive, which is used to configure codefmt's maktaba flags. See
 " `:help :Glaive` for usage.
 Plug 'google/vim-glaive'
+"---auto save---
+" Plug '907th/vim-auto-save'
+Plug 'chrisbra/vim-autosave'
 "-----------end of plug-------------------
 " Initialize plugin system
 call plug#end()
