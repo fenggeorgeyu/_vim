@@ -66,7 +66,7 @@ if has("nvim") || v:version > 800 "only for vim > 8.0
 endif
 "---colorscheme----
 Plug 'tomasr/molokai'
-" Plug 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
+Plug 'gertjanreynaert/cobalt2-vim-theme' "cobolt2
 " Plug 'jnurmine/Zenburn' "zenburn
 " Plug 'romainl/apprentice' "good dark theme
 " Plug 'rakr/vim-one' "one-light and one-dark theme
