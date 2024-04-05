@@ -18,7 +18,7 @@ Plug 'ascenator/L9', {'name': 'newL9'}
 "required by plasticboy/vim-markdown
 " Plug 'godlygeek/tabular' 
 " Plug 'plasticboy/vim-markdown'
-" Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-markdown'
 Plug 'fenggeorgeyu/vim-markdown-preview'
 " Plug 'suan/vim-instant-markdown', {'rtp': 'after'}
 "----markdown--end--
@@ -74,7 +74,7 @@ Plug 'nanotech/jellybeans.vim'
 "---tag list bar---
 Plug 'majutsushi/tagbar'
 "---auto generate tags--
-"Plug 'ludovicchabant/vim-gutentags'
+Plug 'ludovicchabant/vim-gutentags'
 "---Conque DB for gdb---
 " Plug 'Conque-GDB'
 " Plug 'cyrus-and/gdb-dashboard'

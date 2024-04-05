@@ -24,7 +24,7 @@ if has("gui_running") || has("gui_vimr")
  	" colorscheme zenburn
 	" colorscheme onedark
 	" colorscheme github
-    colorcheme molokai
+    colorscheme molokai
 	" let g:airline_theme='aurora' 
 	" let g:airline_theme='silver' 
 	" let g:airline_theme='light'
