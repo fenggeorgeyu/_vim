@@ -74,7 +74,7 @@ Plug 'nanotech/jellybeans.vim'
 "---tag list bar---
 Plug 'majutsushi/tagbar'
 "---auto generate tags--
-Plug 'ludovicchabant/vim-gutentags'
+"Plug 'ludovicchabant/vim-gutentags'
 "---Conque DB for gdb---
 " Plug 'Conque-GDB'
 " Plug 'cyrus-and/gdb-dashboard'
