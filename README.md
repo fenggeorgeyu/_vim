@@ -50,6 +50,12 @@ Execute the following command in Terminal.app if you're using Use Core Text rend
 
 	defaults write org.vim.MacVim MMUseCGLayerAlways -bool YES
 
+* No "python3" provider found. Run :checkhealth provider. 
+
+   `pip3 install pyvim neovim`
+
+
+
 ## Screenshot
 
 ![Screenshot](./misc/screenshot.png)
