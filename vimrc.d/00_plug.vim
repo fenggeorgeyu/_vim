@@ -46,7 +46,7 @@ Plug 'skywind3000/asyncrun.vim'
 " Plug 'shougo/neocomplete.vim'
 if has("nvim") || v:version > 800 "only for vim > 8.0
  "Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
- Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
+ "Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
  " " -- setup lsp ---
  " Plug 'prabirshrestha/async.vim'
  " Plug 'prabirshrestha/vim-lsp'

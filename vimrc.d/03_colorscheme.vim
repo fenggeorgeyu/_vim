@@ -23,12 +23,12 @@ autocmd ColorScheme * hi clear SpellLocal
 "-------color theme-------
 " colorscheme molokai
 " colorscheme morning
-" colorscheme cobalt2
+colorscheme cobalt2
 " colorscheme darkblue
 " colorscheme zenburn
 " "---one dark colorscheme---
 " " https://github.com/joshdick/onedark.vim
-colorscheme onedark
+" colorscheme onedark
 " let g:onedark_termcolors=256
 " let g:onedark_color_overrides = {
 " \ "black": {"gui": "#2F343F", "cterm": "235", "cterm16": "0" },
