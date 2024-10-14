@@ -51,11 +51,15 @@ set wrap linebreak nolist
 set nobackup
 set nowb
 set noswapfile
-" set indent
-set autoindent
-set noexpandtab
+"""===set indent and tab
+set softtabstop=4
 set tabstop=4
 set shiftwidth=4
+set expandtab
+"set autoindent
+"set noexpandtab
+"set tabstop=4
+"set shiftwidth=4
 " set foldmethod=expr " fold
 set foldmethod=syntax
 set foldlevel=100
