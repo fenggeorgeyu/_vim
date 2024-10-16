@@ -28,7 +28,7 @@ let vim_markdown_preview_toggle=1 "render html after pressing shortcut key
 let vim_markdown_preview_pandoc=1 "need to install pandoc
 let vim_markdown_preview_temp_file=1 "delete tmp html file after randering
 "let vim_markdown_preview_browser='Google Chrome'
-let vim_markdown_preview_browser='Fire Fox'
+let vim_markdown_preview_browser='FireFox'
 let vim_markdown_preview_hotkey='<C-m>' "use ctrl+m to avoid conflict with ctrl+p in `ctrlp` plugin
 
 
