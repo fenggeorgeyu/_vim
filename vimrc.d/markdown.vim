@@ -34,7 +34,7 @@ let vim_markdown_preview_hotkey='<C-m>' "use ctrl+m to avoid conflict with ctrl+
 
 ""---
 " Enable folding.
-let g:vim_markdown_folding_disabled = 0
+let g:vim_markdown_folding_disabled = 1
 
 " Fold heading in with the contents.
 let g:vim_markdown_folding_style_pythonic = 1
