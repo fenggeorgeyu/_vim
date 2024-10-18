@@ -63,3 +63,8 @@ let g:vim_markdown_frontmatter = 1
 " Format strike-through text (wrapped in `~~`).
 let g:vim_markdown_strikethrough = 1
 
+"---marksman lsp work with manson plugin---
+if exists('g:loaded_lsp')
+  call LspAddServer([#{ name: 'marksman', filetype: ['markdown'], path: '/usr/local/bin/marksman', args: ['server'], syncInit: v:true }])
+end
+

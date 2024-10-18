@@ -15,14 +15,16 @@ Plug 'ascenator/L9', {'name': 'newL9'}
 " plugin for Git
 " Plug 'tpope/vim-fugitive'
 "---markdown--------
-"required by plasticboy/vim-markdown
-Plug 'godlygeek/tabular' 
-Plug 'preservim/vim-markdown'
 " Plug 'plasticboy/vim-markdown'
 " Plug 'tpope/vim-markdown'
 " Plug 'JamshedVesuna/vim-markdown-preview'
-Plug 'fenggeorgeyu/vim-markdown-preview'
+"required by plasticboy/vim-markdown
+" Plug 'godlygeek/tabular' 
+" Plug 'preservim/vim-markdown'
+" Plug 'fenggeorgeyu/vim-markdown-preview'
 " Plug 'suan/vim-instant-markdown', {'rtp': 'after'}
+""---use marksmen
+Plug 'williamboman/mason.nvim'
 "----markdown--end--
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
