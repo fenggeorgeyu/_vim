@@ -16,6 +16,10 @@ if !has('nvim')
 	set nocompatible
 endif
 
+
+let hostname = substitute(system('hostname'), '\n', '', '')
+
+
 " Enable syntax highlighting
 syntax on
 set hidden
@@ -81,5 +85,6 @@ set timeoutlen=300
 set ttimeoutlen=0
 
 "---python provider---
-let g:python3_host_prog = "/usr/local/bin/python3"
+" let g:python3_host_prog = "/usr/local/bin/python3"
+let g:python3_host_prog = "python3"
 
