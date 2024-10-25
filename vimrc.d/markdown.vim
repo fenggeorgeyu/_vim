@@ -1,23 +1,23 @@
 """---plasticboy markdown---
 ""https://github.com/plasticboy/vim-markdown/blob/master/doc/vim-markdown.txt
-"set conceallevel=0
-"let g:vim_markdown_conceal = 0 "display all symbols in markdown
-"let g:vim_markdown_conceal_code_blocks = 0 "disable concealing in ` ` 
-"let g:tex_conceal = ""
+set conceallevel=0
+let g:vim_markdown_conceal = 0 "display all symbols in markdown
+let g:vim_markdown_conceal_code_blocks = 0 "disable concealing in ` ` 
+let g:tex_conceal = ""
 let g:vim_markdown_math = 1
-"let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_folding_disabled = 1
 "let g:vim_markdown_folding_level = 6
 "let g:vim_markdown_no_default_key_mappings = 1
 "let g:vim_markdown_fenced_languages = ['html', 'python', 'bash=shell']
 
 ""TOML Front Matter
-"let g:vim_markdown_toml_frontmatter = 1
+let g:vim_markdown_toml_frontmatter = 1
 
 
 ""----------vim-markdownby TIM POPE----------
 ""https://vimawesome.com/plugin/vim-markdown-enchanted
-"let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
-"let g:markdown_syntax_conceal = 0
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+let g:markdown_syntax_conceal = 0
 
 
 ""---markdown preview---
