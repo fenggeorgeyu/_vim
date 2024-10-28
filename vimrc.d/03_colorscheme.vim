@@ -21,7 +21,8 @@ autocmd ColorScheme * hi clear SpellLocal
  \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=NONE
 
 "-------color theme-------
-colorscheme molokai
+colorscheme jellybeans
+" colorscheme molokai
 " colorscheme morning
 " colorscheme cobalt2
 " colorscheme darkblue
@@ -39,7 +40,6 @@ colorscheme molokai
 " let g:spacegray_low_contrast = 1
 " colorscheme afterglow
 " colorscheme forest-night
-" colorscheme jellybeans
 "-------vim-colors-pencil---------
 " colorscheme pencil
 "--- code background ---
