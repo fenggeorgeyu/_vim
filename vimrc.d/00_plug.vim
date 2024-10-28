@@ -24,7 +24,7 @@ Plug 'preservim/vim-markdown'
 Plug 'fenggeorgeyu/vim-markdown-preview'
 Plug 'suan/vim-instant-markdown', {'rtp': 'after'}
 ""---use marksmen
-Plug 'williamboman/mason.nvim'
+" Plug 'williamboman/mason.nvim'
 "----markdown--end--
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
