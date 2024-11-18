@@ -1,17 +1,18 @@
 """---plasticboy markdown---
 ""https://github.com/plasticboy/vim-markdown/blob/master/doc/vim-markdown.txt
-set conceallevel=0
-let g:vim_markdown_conceal = 0 "display all symbols in markdown
-let g:vim_markdown_conceal_code_blocks = 0 "disable concealing in ` ` 
-let g:tex_conceal = ""
-let g:vim_markdown_math = 1
+"set conceallevel=0
+set concealcursor-=n "text in current line unconcealed
+"let g:vim_markdown_conceal = 0 "display all symbols in markdown
+"let g:vim_markdown_conceal_code_blocks = 0 "disable concealing in ` ` 
+"let g:tex_conceal = ""
+" let g:vim_markdown_math = 1 "not display $ $ in math
 let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_toml_frontmatter = 1 "TOML Front Matter
+
 "let g:vim_markdown_folding_level = 6
 "let g:vim_markdown_no_default_key_mappings = 1
 "let g:vim_markdown_fenced_languages = ['html', 'python', 'bash=shell']
 
-""TOML Front Matter
-let g:vim_markdown_toml_frontmatter = 1
 
 
 ""----------vim-markdownby TIM POPE----------
@@ -19,6 +20,10 @@ let g:vim_markdown_toml_frontmatter = 1
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
 let g:markdown_syntax_conceal = 0
 
+set conceallevel=2
+let g:tex_conceal="abdgm"
+let g:tex_superscripts= "[0-9a-zA-W.,:;+-<>/()=]"
+let g:tex_subscripts= "[0-9aehijklmnoprstuvx,+-/().]"
 
 ""---markdown preview---
 "URL: https://github.com/JamshedVesuna/vim-markdown-preview
@@ -33,17 +38,11 @@ let vim_markdown_preview_hotkey='<C-m>' "use ctrl+m to avoid conflict with ctrl+
 
 
 ""---
-" Enable folding.
-let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_folding_disabled = 1 " Enable folding.
+let g:vim_markdown_folding_style_pythonic = 1 " Fold heading in with the contents.
+let g:vim_markdown_no_default_key_mappings = 1 " Don't use the shipped key bindings.
+let g:vim_markdown_toc_autofit = 1 " Autoshrink TOCs.
 
-" Fold heading in with the contents.
-let g:vim_markdown_folding_style_pythonic = 1
-
-" Don't use the shipped key bindings.
-let g:vim_markdown_no_default_key_mappings = 1
-
-" Autoshrink TOCs.
-let g:vim_markdown_toc_autofit = 1
 
 " Indentation for new lists. We don't insert bullets as it doesn't play
 " nicely with `gq` formatting. It relies on a hack of treating bullets
@@ -63,8 +62,8 @@ let g:vim_markdown_frontmatter = 1
 " Format strike-through text (wrapped in `~~`).
 let g:vim_markdown_strikethrough = 1
 
-"---marksman lsp work with manson plugin---
-if exists('g:loaded_lsp')
-  call LspAddServer([#{ name: 'marksman', filetype: ['markdown'], path: '/usr/local/bin/marksman', args: ['server'], syncInit: v:true }])
-end
+""---marksman lsp work with manson plugin---
+"if exists('g:loaded_lsp')
+"  call LspAddServer([#{ name: 'marksman', filetype: ['markdown'], path: '/usr/local/bin/marksman', args: ['server'], syncInit: v:true }])
+"end
 

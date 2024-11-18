@@ -81,5 +81,6 @@ set timeoutlen=300
 set ttimeoutlen=0
 
 "---python provider---
+"" pip3 install pynvim
 " let g:python3_host_prog = "/usr/local/bin/python3"
 
