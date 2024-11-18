@@ -1,7 +1,9 @@
 """---plasticboy markdown---
 ""https://github.com/plasticboy/vim-markdown/blob/master/doc/vim-markdown.txt
-"set conceallevel=0
-set concealcursor-=n "text in current line unconcealed
+" set conceallevel=0
+"text in current line unconcealed
+set concealcursor-=n 
+let g:indentLine_setConceal = 0
 "let g:vim_markdown_conceal = 0 "display all symbols in markdown
 "let g:vim_markdown_conceal_code_blocks = 0 "disable concealing in ` ` 
 "let g:tex_conceal = ""
