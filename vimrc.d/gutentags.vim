@@ -1,4 +1,5 @@
 
+let g:gutentags_ctags_executable='/opt/homebrew/bin/ctags'
 set statusline+=%{gutentags#statusline()}
 let g:gutentags_ctags_exclude = ["*.min.js", "*.min.css", "build", "vendor", ".git", "node_modules", "*.vim/bundle/*", "*.vim/plugged/*"]
 let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']
