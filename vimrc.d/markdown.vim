@@ -2,27 +2,34 @@
 ""https://github.com/plasticboy/vim-markdown/blob/master/doc/vim-markdown.txt
 " set conceallevel=0
 "text in current line unconcealed
-set concealcursor-=n 
-let g:indentLine_setConceal = 0
-"let g:vim_markdown_conceal = 0 "display all symbols in markdown
-"let g:vim_markdown_conceal_code_blocks = 0 "disable concealing in ` ` 
-"let g:tex_conceal = ""
-" let g:vim_markdown_math = 1 "not display $ $ in math
-let g:vim_markdown_folding_disabled = 1
-let g:vim_markdown_toml_frontmatter = 1 "TOML Front Matter
 
 "let g:vim_markdown_folding_level = 6
 "let g:vim_markdown_no_default_key_mappings = 1
 "let g:vim_markdown_fenced_languages = ['html', 'python', 'bash=shell']
 
+""-----preservim/vim-markdown-----
+set conceallevel=2
+set concealcursor-=n 
+let g:indentLine_setConceal = 0
+"let g:vim_markdown_conceal = 0 "display all symbols in markdown
+"let g:vim_markdown_conceal_code_blocks = 0 "disable concealing in ` ` 
 
+"let g:tex_conceal = ""
+" let g:vim_markdown_math = 1 "not display $ $ in math
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_toml_frontmatter = 1 "TOML Front Matter
+
+""support for boarderless tables
+let g:vim_markdown_borderless_table = 1
+
+" automatically inserting bulletpoint
+let g:vim_markdown_auto_insert_bullets = 1
 
 ""----------vim-markdownby TIM POPE----------
 ""https://vimawesome.com/plugin/vim-markdown-enchanted
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
 let g:markdown_syntax_conceal = 0
 
-set conceallevel=2
 let g:tex_conceal="abdgm"
 let g:tex_superscripts= "[0-9a-zA-W.,:;+-<>/()=]"
 let g:tex_subscripts= "[0-9aehijklmnoprstuvx,+-/().]"
@@ -68,4 +75,8 @@ let g:vim_markdown_strikethrough = 1
 "if exists('g:loaded_lsp')
 "  call LspAddServer([#{ name: 'marksman', filetype: ['markdown'], path: '/usr/local/bin/marksman', args: ['server'], syncInit: v:true }])
 "end
+
+
+
+
 

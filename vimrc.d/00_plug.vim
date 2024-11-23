@@ -23,6 +23,8 @@ Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
 Plug 'fenggeorgeyu/vim-markdown-preview'
 Plug 'suan/vim-instant-markdown', {'rtp': 'after'}
+" automatic bullet writing for markdown
+Plug 'bullets-vim/bullets.vim' 
 ""---use marksmen
 " Plug 'williamboman/mason.nvim'
 "----markdown--end--
