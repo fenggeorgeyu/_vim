@@ -44,6 +44,8 @@ set t_vb=
 " set cmdheight=2
 " Display line numbers on the left
 set number
+" highlight current line
+set cursorline
  
 "softwrap setting
 set wrap linebreak nolist

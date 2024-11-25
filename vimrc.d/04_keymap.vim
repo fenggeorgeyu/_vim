@@ -99,6 +99,7 @@ inoremap <Esc><BS> <C-w>
 " alt+<- and alt+->
 inoremap <Esc>b <C-Left>
 inoremap <Esc>f <C-Right>
+
 " D-> and D<- work as End and Home key
 " this needs to add in iterm profile key: 
 " FOR  		   ACTION           SEND
