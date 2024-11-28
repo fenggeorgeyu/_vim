@@ -112,7 +112,8 @@ Plug 'google/vim-codefmt'
 Plug 'google/vim-glaive'
 "---auto save---
 " Plug '907th/vim-auto-save'
-Plug 'chrisbra/vim-autosave'
+" Plug 'chrisbra/vim-autosave'
+Plug 'brianhuster/autosave.nvim' 
 "---table model---
 Plug 'dhruvasagar/vim-table-mode'
 "-----------end of plug-------------------
