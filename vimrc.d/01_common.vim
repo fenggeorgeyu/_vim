@@ -83,6 +83,12 @@ autocmd InsertLeave * set nocul
 set timeoutlen=200
 set ttimeoutlen=0
 
+
+""updatetime interval 10 sec, used in autosave
+"set updatetime=10000 
+autocmd BufEnter * set updatetime=4000
+autocmd BufEnter *.txt,*.md set updatetime=60000 "do not include a space between groups
+
 "---python provider---
 "" pip3 install pynvim
 " let g:python3_host_prog = "/usr/local/bin/python3"
