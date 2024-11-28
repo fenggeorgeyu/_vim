@@ -4,7 +4,7 @@
 
 let g:auto_save=1
 
-let g:auto_save_events = ["InsertLeave", "TextChanged", "CursorHold", "CursorHoldI"]
+let g:auto_save_events = ["CursorHold", "CursorHoldI"] "will autosave when cursor hold in normal and insert mode, check updatetime setting in common configuration
 " let g:auto_save_events = ["InsertLeave", "TextChanged"]
 
 "let g:auto_save = 0
