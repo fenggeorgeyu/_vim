@@ -21,7 +21,8 @@ autocmd ColorScheme * hi clear SpellLocal
  \| hi SpellBad cterm=underline,bold ctermfg=red ctermbg=NONE
 
 "-------color theme-------
-colorscheme jellybeans
+" colorscheme jellybeans
+colorscheme onedark
 " colorscheme molokai
 " colorscheme morning
 " colorscheme cobalt2
