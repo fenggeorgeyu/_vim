@@ -100,6 +100,35 @@ inoremap <Esc><BS> <C-w>
 inoremap <Esc>b <C-Left>
 inoremap <Esc>f <C-Right>
 
+"""---for VimR---
+"" https://github.com/macvim-dev/macvim/blob/master/src/MacVim/gvimrc
+"let macvim_skip_cmd_opt_movement = 1
+"
+"if !exists("macvim_skip_cmd_opt_movement")
+"  no   <D-Left>       <Home>
+"  no!  <D-Left>       <Home>
+"  no   <M-Left>       <C-Left>
+"  no!  <M-Left>       <C-Left>
+"
+"  no   <D-Right>      <End>
+"  no!  <D-Right>      <End>
+"  no   <M-Right>      <C-Right>
+"  no!  <M-Right>      <C-Right>
+"
+"  no   <D-Up>         <C-Home>
+"  ino  <D-Up>         <C-Home>
+"  no   <M-Up>         {
+"  ino  <M-Up>         <C-o>{
+"
+"  no   <D-Down>       <C-End>
+"  ino  <D-Down>       <C-End>
+"  no   <M-Down>       }
+"  ino  <M-Down>       <C-o>}
+"
+"  ino  <M-BS>         <C-w>
+"  ino  <D-BS>         <C-u>
+"endif " !exists("macvim_skip_cmd_opt_movement")
+
 " D-> and D<- work as End and Home key
 " this needs to add in iterm profile key: 
 " FOR  		   ACTION           SEND
@@ -123,4 +152,6 @@ inoremap <C-a> <C-o>0
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+
+
 
