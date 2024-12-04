@@ -48,12 +48,19 @@ Plug 'skywind3000/asyncrun.vim'
 "---conque shell term----
 " Plug 'rosenfeld/conque-term'
 "---autocomplete
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
 " Plug 'shougo/neocomplete.vim'
-if has("nvim") || v:version > 800 "only for vim > 8.0
+"if has("nvim") || v:version > 800 "only for vim > 8.0
  "Plug 'valloric/youcompleteme' " too large approximiately 200MB ..
 " Plug 'fenggeorgeyu/youcompleteme' " delete some test file with special
  """encoding names
-endif
+"endif
 "---programming grammar check---
 " Plug 'scrooloose/syntastic' "slow
 " Plug 'w0rp/ale' "configured not working for java now
