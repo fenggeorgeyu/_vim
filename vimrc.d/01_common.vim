@@ -81,10 +81,18 @@ autocmd InsertLeave * set nocul
 
 "---try to increase vim speed---
 "---timeout from insert to normal mode---
-set timeoutlen=300 
+set timeoutlen=200 
 set ttimeoutlen=0
 
 "---python provider---
+#!/bin/bash
+
+if hostname == "gpu-pc3.dl" 
+   let g:python3_host_prog = "/usr/bin/python3"
+else
+   let g:python3_host_prog = "/usr/local/bin/python3"  
+endif
+	
 " let g:python3_host_prog = "/usr/local/bin/python3"
-let g:python3_host_prog = "python3"
+"let g:python3_host_prog = "python3"
 
