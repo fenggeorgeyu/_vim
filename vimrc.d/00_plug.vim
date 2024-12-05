@@ -90,8 +90,8 @@ Plug 'raimondi/delimitmate'
 "--tex---
 Plug 'lervag/vimtex'
 "---snippets---
-Plug 'sirver/ultisnips'
-Plug 'honza/vim-snippets'
+"Plug 'sirver/ultisnips'
+"Plug 'honza/vim-snippets'
 "--citation--
 " Plug 'rafaqz/citation.vim'
 " Plug 'junegunn/fzf.vim'
