@@ -22,7 +22,7 @@ Plug 'ascenator/L9', {'name': 'newL9'}
 Plug 'godlygeek/tabular' 
 Plug 'preservim/vim-markdown'
 Plug 'fenggeorgeyu/vim-markdown-preview'
-Plug 'suan/vim-instant-markdown', {'rtp': 'after'}
+"Plug 'suan/vim-instant-markdown', {'rtp': 'after'}
 " automatic bullet writing for markdown
 Plug 'bullets-vim/bullets.vim' 
 ""---use marksmen
@@ -38,7 +38,7 @@ Plug 'tpope/vim-commentary'
 "" use tabline in airline extension
 " Plug 'ap/vim-buftabline'
 "---buffer explorer---
-Plug 'vim-scripts/bufexplorer.zip'
+"Plug 'vim-scripts/bufexplorer.zip'
 ""---mini buffer explorer window---
 Plug 'fholgado/minibufexpl.vim'
 "---quickfix window control---
