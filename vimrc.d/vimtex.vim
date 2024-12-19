@@ -6,7 +6,7 @@ let g:vimtex_compiler_method='latexmk' "auto compile using latexmk when file cha
 " let g:vimtex_compiler_method='pdflatex' "doesn't work for pdflatex now
 
 
-set conceallevel=0
+" set conceallevel=0
 " let g:tex_conceal='abdmg'
 " solve key conflicts in vimtex
 " https://github.com/SirVer/ultisnips/issues/170
