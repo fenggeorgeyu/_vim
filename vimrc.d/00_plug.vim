@@ -1,9 +1,4 @@
-" filetype off " required
-" set the runtime path to include Vundle and initialize
-" set rtp+=~/.vim/bundle/Vundle.vim
-" call vundle#begin()
-" let Vundle manage Vundle, required
-" Plugin 'VundleVim/Vundle.vim'
+" https://github.com/junegunn/vim-plug
 
 call plug#begin('~/.vim/plugged')
 
@@ -123,6 +118,7 @@ Plug '907th/vim-auto-save'
 " Plug 'brianhuster/autosave.nvim' 
 "---table model---
 Plug 'dhruvasagar/vim-table-mode'
+"Plug 'dhruvasagar/vim-table-mode', { 'tag':'v4.7.6' }
 "-----------end of plug-------------------
 " Initialize plugin system
 call plug#end()

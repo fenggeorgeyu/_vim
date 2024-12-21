@@ -80,7 +80,7 @@ autocmd InsertLeave * set nocul
 "---try to increase vim speed---
 "---timeout from insert to normal mode---
 " set timeoutlen=300 
-set timeoutlen=200
+set timeoutlen=500
 set ttimeoutlen=0
 
 
