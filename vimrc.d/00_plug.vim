@@ -34,9 +34,9 @@ Plug 'tpope/vim-commentary'
 "" use tabline in airline extension
 " Plug 'ap/vim-buftabline'
 "---buffer explorer---
-"Plug 'vim-scripts/bufexplorer.zip'
+Plug 'vim-scripts/bufexplorer.zip'
 ""---mini buffer explorer window---
-"Plug 'fholgado/minibufexpl.vim'
+Plug 'fholgado/minibufexpl.vim'
 "---quickfix window control---
 Plug 'milkypostman/vim-togglelist'
 "---asynchronous quickfix window when run command
