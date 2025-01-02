@@ -1,9 +1,4 @@
-" filetype off " required
-" set the runtime path to include Vundle and initialize
-" set rtp+=~/.vim/bundle/Vundle.vim
-" call vundle#begin()
-" let Vundle manage Vundle, required
-" Plugin 'VundleVim/Vundle.vim'
+" https://github.com/junegunn/vim-plug
 
 call plug#begin('~/.vim/plugged')
 
@@ -22,7 +17,7 @@ Plug 'ascenator/L9', {'name': 'newL9'}
 Plug 'godlygeek/tabular' 
 Plug 'preservim/vim-markdown'
 Plug 'fenggeorgeyu/vim-markdown-preview'
-Plug 'suan/vim-instant-markdown', {'rtp': 'after'}
+"Plug 'suan/vim-instant-markdown', {'rtp': 'after'}
 " automatic bullet writing for markdown
 Plug 'bullets-vim/bullets.vim' 
 ""---use marksmen
@@ -38,7 +33,7 @@ Plug 'tpope/vim-commentary'
 "" use tabline in airline extension
 " Plug 'ap/vim-buftabline'
 "---buffer explorer---
-Plug 'vim-scripts/bufexplorer.zip'
+"Plug 'vim-scripts/bufexplorer.zip'
 ""---mini buffer explorer window---
 Plug 'fholgado/minibufexpl.vim'
 "---quickfix window control---
@@ -123,6 +118,7 @@ Plug '907th/vim-auto-save'
 " Plug 'brianhuster/autosave.nvim' 
 "---table model---
 Plug 'dhruvasagar/vim-table-mode'
+"Plug 'dhruvasagar/vim-table-mode', { 'tag':'v4.7.6' }
 "-----------end of plug-------------------
 " Initialize plugin system
 call plug#end()

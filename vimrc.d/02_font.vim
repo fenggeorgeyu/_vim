@@ -6,7 +6,12 @@ if has("gui_running")
     if has("gui_gtk2")
         set guifont=Inconsolata\ 17
     elseif has("gui_macvim")
-        set guifont=Consolas-with-Yahei:h17
+		set guifont=NotoMonoForPowerline:h17
+		"set guifont=DejaVuSansMonoPowerline:h17
+		"set guifont=Cousine\ for\ Powerline:h18
+		"set guifont=Source\ Code\ Pro\ for\ Powerline:h18
+		"set guifont=Menlo\ Regular:h18
+        "set guifont=Consolas-with-Yahei:h17
     elseif has("gui_win32")
         set guifont=Consolas:h11:cANSI
     endif
@@ -15,8 +20,8 @@ endif
 " set guifont=Menlo\ Regular:h18
 " https://github.com/wuqiling97/Consolas-with-Yahei
 " use powerline font for airline
-" git clone git@github.com:powerline/fonts.git
-" cd fonts
+" git clone git@github.com:powerline/fonts.git powerline_fonts
+" cd powerline_fonts
 " ./install.sh
 " in airline.vim add
 " let g:airline_powerline_fonts = 1
