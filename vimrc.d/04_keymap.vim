@@ -148,10 +148,14 @@ inoremap <C-a> <C-o>0
 "
 
 
+" fix for nvim
+
 " Use <F2> to toggle between 'paste' and 'nopaste'
 nnoremap <F2> :set invpaste paste?<CR>
-set pastetoggle=<F2>
+" Removed 'set pastetoggle' as it is not supported in Neovim
+"set pastetoggle=<F2>
 set showmode
+
 
 
 
