@@ -71,7 +71,7 @@ Plug 'tomasr/molokai'
 " Plug 'jnurmine/Zenburn' "zenburn
 " Plug 'romainl/apprentice' "good dark theme
 " Plug 'rakr/vim-one' "one-light and one-dark theme
-Plug 'joshdick/onedark.vim'
+" Plug 'joshdick/onedark.vim'
 " Plug 'sainnhe/vim-color-forest-night'
 Plug 'nanotech/jellybeans.vim'
 " Plug 'ajh17/spacegray.vim'
